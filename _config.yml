@@ -1,0 +1,36 @@
+title: HelloMnemo Documentation
+description: User manuals, wikis, and guides for the HelloMnemo mobile app
+baseurl: ""
+url: "https://hellomnemo.com"
+
+remote_theme: just-the-docs/just-the-docs
+
+# Theme settings
+color_scheme: light
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Navigation
+nav_sort: case_insensitive
+
+# Footer
+footer_content: "&copy; 2024 HelloMnemo. All rights reserved."
+
+# Back to top
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Heading anchor links
+heading_anchors: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
