@@ -3,9 +3,10 @@ description: Public documentation hub for Mnemo, including user guides, project 
 baseurl: ""
 url: "https://docs.hellomnemo.com"
 
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 color_scheme: light
+logo: "/assets/images/mnemo-icon-512.png"
 search_enabled: true
 search:
   heading_level: 2
@@ -20,9 +21,9 @@ nav_sort: case_insensitive
 
 aux_links:
   "Main site":
-    - "https://hellomnemo.com"
+  - "https://hellomnemo.com"
   "Report an issue":
-    - "https://github.com/greenmice-technologies/hellomnemo.com/issues"
+  - "https://github.com/greenmice-technologies/hellomnemo.com/issues"
 
 aux_links_new_tab: true
 
@@ -34,5 +35,5 @@ back_to_top_text: "Back to top"
 heading_anchors: true
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-sitemap

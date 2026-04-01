@@ -5,9 +5,40 @@ parent: User Manual
 nav_order: 1
 ---
 
-# Getting Started
+<!-- markdownlint-disable MD033 -->
 
 Mnemo is designed to help you build a private, structured memory archive instead of scattering notes, screenshots, links, and voice fragments across different apps.
+
+<div class="mnemo-doc-intro">
+  <p class="mnemo-doc-intro__eyebrow">First run</p>
+  <p>Use this page to set expectations correctly: Mnemo is already useful as a private, local-first memory system before cloud accounts and sync become part of the product baseline.</p>
+  <div class="mnemo-doc-tags">
+    <span class="mnemo-doc-tag">Private setup first</span>
+    <span class="mnemo-doc-tag">Capture before sync</span>
+    <span class="mnemo-doc-tag">Recall surfaces already live</span>
+  </div>
+</div>
+
+<div class="mnemo-doc-grid">
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Today</p>
+    <h3>What to expect</h3>
+    <ul class="mnemo-check-list">
+      <li>Start locally without depending on cloud continuity.</li>
+      <li>Build a personal archive with entries, media, and structure.</li>
+      <li>Use recall surfaces immediately after capture.</li>
+    </ul>
+  </div>
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">First actions</p>
+    <h3>Recommended sequence</h3>
+    <ul class="mnemo-check-list">
+      <li>Create a local setup or profile.</li>
+      <li>Capture a first note, photo, voice memo, or link.</li>
+      <li>Add folders, tags, time, place, or reminders.</li>
+    </ul>
+  </div>
+</div>
 
 ## What to expect today
 
@@ -59,3 +90,5 @@ Mnemo is meant to be read back, not just filled up. Use the available recall sur
 - Read [Core features]({{ site.baseurl }}/docs/user-manual/core-features/)
 - Read [Privacy & settings]({{ site.baseurl }}/docs/user-manual/account-settings/)
 - Check [Project status]({{ site.baseurl }}/docs/wiki/project-status/) if you want to understand what is live versus what is planned
+
+<!-- markdownlint-enable MD033 -->

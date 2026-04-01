@@ -6,9 +6,19 @@ has_children: true
 permalink: /docs/user-manual/
 ---
 
-# User Manual
+<!-- markdownlint-disable MD033 -->
 
-This section documents the user-facing experience of Mnemo as it is currently available.
+<div class="mnemo-doc-intro">
+  <p class="mnemo-doc-intro__eyebrow">User manual</p>
+  <p>This section documents the user-facing experience of Mnemo as it is currently available, with a bias toward shipped flows and realistic expectations.</p>
+  <div class="mnemo-doc-tags">
+    <span class="mnemo-doc-tag">Local-first baseline</span>
+    <span class="mnemo-doc-tag">Current app behavior</span>
+    <span class="mnemo-doc-tag">No speculative sync promises</span>
+  </div>
+</div>
+
+## Product posture
 
 The current app posture is local-first:
 
@@ -16,8 +26,28 @@ The current app posture is local-first:
 - private capture and recall workflows are the current focus
 - cloud account and sync flows are planned, but are not yet the baseline user experience
 
+<div class="mnemo-doc-grid">
+  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/user-manual/getting-started/">
+    <p class="mnemo-doc-kicker">Start here</p>
+    <strong>Getting started</strong>
+    <span>Understand first-run expectations, the current onboarding posture, and what Mnemo is optimized for today.</span>
+  </a>
+  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/user-manual/core-features/">
+    <p class="mnemo-doc-kicker">Feature map</p>
+    <strong>Core features</strong>
+    <span>Review capture, organization, recall surfaces, and the local-first data model already available in the product.</span>
+  </a>
+  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/user-manual/account-settings/">
+    <p class="mnemo-doc-kicker">Control surface</p>
+    <strong>Privacy & settings</strong>
+    <span>Check what users can already configure around protection, preferences, notifications, and local data handling.</span>
+  </a>
+</div>
+
 ## Sections
 
 - [Getting started]({{ site.baseurl }}/docs/user-manual/getting-started/) – first-run expectations and how Mnemo works today
 - [Core features]({{ site.baseurl }}/docs/user-manual/core-features/) – entries, folders, search, map, calendar, media, reminders, and export/import
 - [Privacy & settings]({{ site.baseurl }}/docs/user-manual/account-settings/) – local account, appearance, lock, notifications, and data controls
+
+<!-- markdownlint-enable MD033 -->

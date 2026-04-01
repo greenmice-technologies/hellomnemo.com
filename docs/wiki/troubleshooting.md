@@ -5,9 +5,32 @@ parent: Wiki
 nav_order: 5
 ---
 
-# Troubleshooting
+<!-- markdownlint-disable MD033 -->
 
 This page focuses on conservative guidance that matches the current product state.
+
+<div class="mnemo-doc-intro">
+  <p class="mnemo-doc-intro__eyebrow">Expectation gaps</p>
+  <p>Most friction points come from assuming cloud-backed continuity or broader support than the current product baseline actually provides. Start with the documented scope, then troubleshoot outward.</p>
+</div>
+
+<div class="mnemo-doc-grid">
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Sync</p>
+    <h3>Another device is empty</h3>
+    <p>Until cloud continuity ships, do not assume entries propagate automatically. Use the documented local/export-import flows instead.</p>
+  </div>
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Discovery</p>
+    <h3>Search misses an entry</h3>
+    <p>Broaden the query and verify related organization surfaces such as folders, tags, timeline, media, map, or calendar views.</p>
+  </div>
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Reminder system</p>
+    <h3>Notifications do not appear</h3>
+    <p>Check device permissions, in-app settings, and whether the reminder was actually saved on the entry.</p>
+  </div>
+</div>
 
 ## I expected cloud sync, but I cannot find it
 
@@ -32,3 +55,5 @@ Until cloud-backed continuity is fully shipped, do not assume entries automatica
 ## I am unsure whether a feature is supported or just planned
 
 Use [Project status]({{ site.baseurl }}/docs/wiki/project-status/) as the reference page. If the docs are unclear, open an issue so the wording can be corrected.
+
+<!-- markdownlint-enable MD033 -->

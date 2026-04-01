@@ -5,9 +5,32 @@ parent: Wiki
 nav_order: 4
 ---
 
-# Tips & Usage Ideas
+<!-- markdownlint-disable MD033 -->
 
 Mnemo works best when you use it as a memory system, not only as a place to dump text.
+
+<div class="mnemo-doc-intro">
+  <p class="mnemo-doc-intro__eyebrow">Usage patterns</p>
+  <p>The product gets stronger when capture, structure, and revisiting happen together. These tips focus on that loop rather than on raw note accumulation.</p>
+</div>
+
+<div class="mnemo-doc-grid">
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Capture</p>
+    <h3>Collect richer context</h3>
+    <p>Blend text, photos, voice, links, location, and reminders so entries carry more meaning when revisited later.</p>
+  </div>
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Structure</p>
+    <h3>Separate folders and tags</h3>
+    <p>Use folders as durable buckets and tags as cross-cutting meaning, then link related entries into broader narratives.</p>
+  </div>
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Recall</p>
+    <h3>Revisit on purpose</h3>
+    <p>Timeline, search, map, calendar, and media views become more valuable when you treat them as regular memory resurfacing surfaces.</p>
+  </div>
+</div>
 
 ## Capture different kinds of context
 
@@ -39,3 +62,5 @@ Mnemo becomes more valuable when you come back through:
 ## Keep expectations aligned
 
 For now, use Mnemo with a local-first mindset. If you are following project progress, treat cloud accounts, sync, and fuller web support as upcoming layers rather than as assumed defaults.
+
+<!-- markdownlint-enable MD033 -->

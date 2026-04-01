@@ -5,7 +5,21 @@ parent: Wiki
 nav_order: 1
 ---
 
-# Frequently Asked Questions
+<!-- markdownlint-disable MD033 -->
+
+<div class="mnemo-doc-intro">
+  <p class="mnemo-doc-intro__eyebrow">Quick answers</p>
+  <p>Use this page when someone needs the short version: what Mnemo is, what is already supported, and where cloud and web support currently stand.</p>
+  <div class="mnemo-doc-tags">
+    <span class="mnemo-doc-tag">Product framing</span>
+    <span class="mnemo-doc-tag">Cloud status clarity</span>
+    <span class="mnemo-doc-tag">Web support caveats</span>
+  </div>
+</div>
+
+<div class="mnemo-callout mnemo-callout--accent">
+  <p><strong>Default answer posture:</strong> document current user reality as local-first, and refer to cloud accounts, sync, and fuller web support as planned until rollout changes.</p>
+</div>
 
 ## What is Mnemo?
 
@@ -32,3 +46,5 @@ A Flutter Web target exists in the codebase, but complete product support depend
 ## Where should I report bugs or request features?
 
 Use the public repository issue tracker referenced from [Feedback and issues]({{ site.baseurl }}/docs/wiki/feedback-and-issues/).
+
+<!-- markdownlint-enable MD033 -->

@@ -5,9 +5,37 @@ parent: User Manual
 nav_order: 2
 ---
 
-# Core Features
+<!-- markdownlint-disable MD033 -->
 
 Mnemo is built around one idea: personal memory should stay connected to its context.
+
+<div class="mnemo-doc-intro">
+  <p class="mnemo-doc-intro__eyebrow">Capability map</p>
+  <p>The product already covers capture, organization, and recall as a coherent loop. This page tracks that loop without overstating cloud-dependent behavior that is still ahead.</p>
+</div>
+
+<div class="mnemo-doc-grid">
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Input</p>
+    <h3>Capture</h3>
+    <p>Text, media, links, and attachments are the raw fragments Mnemo helps preserve with context attached.</p>
+  </div>
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Structure</p>
+    <h3>Organize</h3>
+    <p>Folders, tags, related entries, time, place, and reminders turn collected fragments into retrievable memory.</p>
+  </div>
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Output</p>
+    <h3>Recall surfaces</h3>
+    <p>Timeline, search, map, calendar, and media views are designed to bring memories back when they matter.</p>
+  </div>
+  <div class="mnemo-doc-card">
+    <p class="mnemo-doc-kicker">Storage</p>
+    <h3>Local-first handling</h3>
+    <p>Persistence, media storage, and export/import remain the supported baseline until account-backed sync is ready.</p>
+  </div>
+</div>
 
 ## Capture
 
@@ -62,3 +90,5 @@ The next strategic steps are:
 3. stronger support for Flutter Web once sync exists
 
 Until those steps ship, this manual should describe the app as local-first.
+
+<!-- markdownlint-enable MD033 -->
