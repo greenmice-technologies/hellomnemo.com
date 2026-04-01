@@ -1,71 +1,56 @@
 ---
 layout: default
-title: Account & Settings
+title: Privacy & Settings
 parent: User Manual
 nav_order: 3
+permalink: /docs/user-manual/account-settings/
 ---
 
-# Account & Settings
+# Privacy & Settings
 
-Manage your HelloMnemo account and customize the app to suit your preferences.
+Mnemo is designed around private memory capture first. The settings area should help users control that private space before cloud continuity is introduced.
 
----
+## Local account and protection
 
-## Profile Settings
+Depending on the build, Mnemo can include local account and app protection features such as:
 
-To update your profile:
+- local sign-in or profile setup
+- passcode or biometric lock
+- protected access after backgrounding
 
-1. Tap the **Profile** icon in the bottom navigation bar.
-2. Tap **Edit Profile**.
-3. Update your display name, profile photo, or email address.
-4. Tap **Save Changes**.
+## Preferences
 
----
+Available settings may include:
 
-## Notification Preferences
+- appearance and theme
+- language
+- playback preferences
+- link opening behavior
+- notification preferences
 
-Control when and how the app notifies you:
+## Data controls
 
-1. Go to **Profile** → **Settings** → **Notifications**.
-2. Toggle notifications for:
-   - **Reminders** – Notifications from memory reminders.
-   - **Shared memories** – Alerts when someone shares a memory with you.
-   - **Weekly digest** – A weekly summary of your saved memories.
+The current local-first product direction makes data controls especially important.
 
----
+Public docs should prioritize the workflows that already exist today, including:
 
-## Privacy & Security
+- local storage expectations
+- export/import where available
+- what stays on device by default
 
-Keep your memories secure:
+## Cloud account note
 
-- **Passcode / Biometric lock** – Enable under **Settings** → **Privacy** → **App Lock**.
-- **Two-Factor Authentication (2FA)** – Add extra login security under **Settings** → **Security** → **Two-Factor Authentication**.
-- **Data export** – Download a copy of all your memories under **Settings** → **Privacy** → **Export My Data**.
+Backend-backed cloud accounts are planned, but they are not yet the default user path this manual should promise.
 
----
+When cloud account support goes live, this section should be expanded to cover:
 
-## Appearance
+- account creation
+- sign-in
+- token/session behavior
+- sync-related account controls
 
-Switch between light and dark mode:
+## Related pages
 
-1. Go to **Settings** → **Appearance**.
-2. Select **Light**, **Dark**, or **System Default**.
-
----
-
-## Deleting Your Account
-
-To permanently delete your account and all associated data:
-
-1. Go to **Profile** → **Settings** → **Account**.
-2. Tap **Delete Account**.
-3. Confirm by entering your password and tapping **Delete Permanently**.
-
-> **Warning:** This action is irreversible. All memories and data will be permanently erased.
-
----
-
-## Next Steps
-
-- Return to the [User Manual]({{ site.baseurl }}/docs/user-manual/) overview.
-- Browse the [Wiki]({{ site.baseurl }}/docs/wiki/) for more tips.
+- [Getting started]({{ site.baseurl }}/docs/user-manual/getting-started/)
+- [Core features]({{ site.baseurl }}/docs/user-manual/core-features/)
+- [Feedback and issues]({{ site.baseurl }}/docs/wiki/feedback-and-issues/)

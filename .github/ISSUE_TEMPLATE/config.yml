@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Mnemo Docs Home
+    url: https://docs.hellomnemo.com
+    about: Read the public docs before opening an issue.
+  - name: Main Site
+    url: https://hellomnemo.com
+    about: Visit the main Mnemo site.

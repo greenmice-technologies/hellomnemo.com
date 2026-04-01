@@ -2,76 +2,33 @@
 layout: default
 title: Troubleshooting
 parent: Wiki
-nav_order: 3
+nav_order: 5
 ---
 
 # Troubleshooting
 
-Having issues with HelloMnemo? This guide covers the most common problems and how to resolve them.
+This page focuses on conservative guidance that matches the current product state.
 
----
+## I expected cloud sync, but I cannot find it
 
-## The App Won't Open / Crashes on Launch
+Current public documentation treats Mnemo as local-first by default. If you are testing internal builds or following development work, remember that backend account integration and sync are planned layers, not baseline public behavior yet.
 
-1. **Restart the app** – Close it completely and reopen it.
-2. **Restart your device** – A quick reboot often resolves startup issues.
-3. **Check for updates** – Make sure you're running the latest version of HelloMnemo from the App Store or Google Play.
-4. **Reinstall the app** – If the issue persists, uninstall and reinstall HelloMnemo. Your data is backed up to the cloud and will be restored after you sign in.
+## I cannot find my saved data on another device
 
----
+Until cloud-backed continuity is fully shipped, do not assume entries automatically appear across devices. Use the product according to the currently documented local/export-import flows.
 
-## Memories Are Not Syncing
+## Search is not finding what I expect
 
-1. Verify you have an active internet connection (Wi-Fi or mobile data).
-2. Pull down on the home screen to trigger a manual sync.
-3. Sign out and sign back in to refresh your session.
-4. Ensure background app refresh is enabled:
-   - **iOS**: Settings → HelloMnemo → Background App Refresh → On.
-   - **Android**: Settings → Apps → HelloMnemo → Battery → Allow background activity.
+- try broader search terms
+- verify the entry actually exists in the current dataset
+- check related organization surfaces such as folders, tags, timeline, or media views
 
----
+## Reminders or notifications are missing
 
-## Search Is Not Returning Expected Results
+- verify your device notification permissions
+- verify in-app notification settings
+- verify the reminder was actually saved on the entry
 
-- Confirm the memory hasn't been moved to **Trash** (Profile → Trash).
-- Try broader search terms or search by tag.
-- If you recently added the memory, wait a moment for it to be indexed, then try again.
+## I am unsure whether a feature is supported or just planned
 
----
-
-## Notifications Are Not Arriving
-
-1. Check that notifications are enabled for HelloMnemo:
-   - **iOS**: Settings → Notifications → HelloMnemo → Allow Notifications.
-   - **Android**: Settings → Apps → HelloMnemo → Notifications → All notifications.
-2. Check in-app notification settings: **Profile** → **Settings** → **Notifications**.
-3. Verify that Do Not Disturb / Focus mode is not blocking notifications.
-
----
-
-## I Can't Log In
-
-- **Forgot password?** Tap **Forgot Password?** on the login screen and follow the instructions.
-- **Account locked?** After multiple failed login attempts, your account may be temporarily locked. Wait 15 minutes and try again.
-- **2FA issues?** If you've lost access to your two-factor authentication method, contact support at support@hellomnemo.com.
-
----
-
-## Storage Full
-
-If you've reached your storage limit:
-
-1. Delete old or unnecessary memories (they go to Trash and are purged after 30 days).
-2. Empty the Trash early: **Profile** → **Trash** → **Empty Trash**.
-3. Upgrade to a Premium plan for additional storage.
-
----
-
-## Contact Support
-
-If none of the above solutions resolve your issue:
-
-- **In-app**: **Profile** → **Settings** → **Help & Feedback** → **Contact Support**.
-- **Email**: support@hellomnemo.com
-
-Please include your device model, OS version, and app version when contacting support.
+Use [Project status]({{ site.baseurl }}/docs/wiki/project-status/) as the reference page. If the docs are unclear, open an issue so the wording can be corrected.

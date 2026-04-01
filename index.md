@@ -4,32 +4,33 @@ title: Home
 nav_order: 1
 ---
 
-# Welcome to HelloMnemo Documentation
+# Mnemo Docs
 
-HelloMnemo is a mobile app designed to help you remember what matters most. This documentation site contains user manuals, guides, and wiki articles to help you get the most out of the app.
+Mnemo is building a private Memory OS: a personal system for capturing fragments of life, keeping their context attached, and bringing them back when they matter.
 
----
+This documentation site is the public hub for product guidance, project status, and issue reporting.
 
-## 📖 What's Available
+## What you can find here
 
-### [User Manual]({{ site.baseurl }}/docs/user-manual/)
-Step-by-step guides for using HelloMnemo, from getting started to advanced features.
+### [User manual]({{ site.baseurl }}/docs/user-manual/)
+Public guidance for the app as it exists today: capture flows, organization, settings, privacy, and supported user-facing workflows.
 
 ### [Wiki]({{ site.baseurl }}/docs/wiki/)
-In-depth articles, FAQs, and tips for power users.
+Project-facing documentation for FAQs, troubleshooting, product status, and feedback routing.
 
----
+## Current product state
 
-## 🚀 Quick Start
+- The Flutter app is currently centered on private, offline-first use.
+- Local capture, organization, reminders, search, map, calendar, media, and export/import workflows already exist.
+- Cloud account integration is planned next through the Mnemo web/backend platform.
+- Cloud sync and a fully supported Flutter Web experience come after account integration.
 
-1. **Download the app** – Available on the App Store and Google Play.
-2. **Create an account** – Sign up with your email or social login.
-3. **Start remembering** – Add your first memory and explore the features.
+## Where to start
 
-Refer to the [Getting Started guide]({{ site.baseurl }}/docs/user-manual/getting-started/) for a full walkthrough.
+- New to Mnemo: read [Getting started]({{ site.baseurl }}/docs/user-manual/getting-started/)
+- Want the current roadmap context: read [Project status]({{ site.baseurl }}/docs/wiki/project-status/)
+- Need help or want to report something: read [Feedback and issues]({{ site.baseurl }}/docs/wiki/feedback-and-issues/)
 
----
+## Notes on scope
 
-## 💬 Need Help?
-
-If you can't find what you're looking for, please visit our [FAQ]({{ site.baseurl }}/docs/wiki/faq/) or reach out to our support team.
+This site should describe what is actually available, not what is merely scaffolded in code. If a feature is planned but not yet user-ready, document it as planned, not as supported.

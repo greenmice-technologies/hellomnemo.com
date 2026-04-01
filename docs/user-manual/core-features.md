@@ -7,68 +7,58 @@ nav_order: 2
 
 # Core Features
 
-HelloMnemo offers a rich set of features to help you capture and recall important information.
+Mnemo is built around one idea: personal memory should stay connected to its context.
 
----
+## Capture
 
-## Memory Types
+Mnemo supports multimodal capture for memory fragments such as:
 
-HelloMnemo supports multiple types of memories:
+- text entries
+- photos
+- audio and voice notes
+- videos
+- document attachments
+- saved links
 
-| Type   | Description                                  |
-|--------|----------------------------------------------|
-| Note   | Plain text notes with optional formatting    |
-| Image  | Photos from your camera or photo library     |
-| Voice  | Audio recordings with automatic transcription|
-| Link   | Web URLs saved with a preview                |
+## Organize
 
----
+Entries can be structured with:
 
-## Search & Filters
+- folders
+- tags
+- pinned/starred states
+- references to related entries
+- time metadata
+- place metadata
+- reminders
 
-Use the search bar at the top of the home screen to find memories by:
+## Recall surfaces
 
-- **Keywords** – Full-text search across all memory content.
-- **Tags** – Filter by tags you've added to memories.
-- **Date range** – Find memories created within a specific time period.
-- **Type** – Filter by memory type (note, image, voice, link).
+Mnemo is not only a place to save things. It is designed to help you find them again through:
 
----
+- timeline view
+- search
+- map view
+- calendar view
+- media-driven browsing
+- reminder-based resurfacing
 
-## Collections
+## Local-first data handling
 
-Group related memories into **Collections** to keep things organized:
+Current supported behavior is centered on local persistence.
 
-1. Tap **Collections** in the bottom navigation bar.
-2. Tap **New Collection** and give it a name.
-3. Add memories to the collection by tapping the **⋮** menu on any memory and selecting **Add to Collection**.
+- the primary dataset is stored as `data.json`
+- media is stored alongside the dataset
+- ZIP import/export exists for portability and backup
 
----
+Cloud sync is not yet the documented baseline behavior for end users.
 
-## Reminders
+## What is changing next
 
-Never forget an important memory:
+The next strategic steps are:
 
-1. Open any memory.
-2. Tap the **Reminder** icon (bell).
-3. Choose a date and time for the reminder.
-4. Tap **Set Reminder** to confirm.
+1. backend-backed account creation and sign-in
+2. cloud sync for data and media continuity
+3. stronger support for Flutter Web once sync exists
 
-You'll receive a push notification at the scheduled time.
-
----
-
-## Sharing
-
-Share memories with others:
-
-1. Open a memory.
-2. Tap the **Share** icon.
-3. Choose to share via link, email, or directly to another app.
-
----
-
-## Next Steps
-
-- [Account & Settings]({{ site.baseurl }}/docs/user-manual/account-settings/) – Customize your experience.
-- [Wiki]({{ site.baseurl }}/docs/wiki/) – Deep dives and tips.
+Until those steps ship, this manual should describe the app as local-first.

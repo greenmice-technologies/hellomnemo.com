@@ -1,81 +1,41 @@
 ---
 layout: default
-title: Tips & Tricks
+title: Tips & Usage Ideas
 parent: Wiki
-nav_order: 2
+nav_order: 4
 ---
 
-# Tips & Tricks
+# Tips & Usage Ideas
 
-Get the most out of HelloMnemo with these helpful tips.
+Mnemo works best when you use it as a memory system, not only as a place to dump text.
 
----
+## Capture different kinds of context
 
-## Use Tags Consistently
+Instead of storing everything as plain notes, combine:
 
-Tags make searching much faster. Develop a consistent tagging system — for example:
-- `#work` for professional notes
-- `#personal` for personal memories
-- `#recipe` for food and cooking links
-- `#idea` for brainstormed concepts
+- text
+- photos
+- voice
+- links
+- location
+- reminders
 
-To add tags, tap the **Tags** field when creating or editing a memory.
+## Use folders and tags differently
 
----
+- Use folders for durable buckets.
+- Use tags for flexible cross-cutting meaning.
+- Use references when two entries belong in the same narrative.
 
-## Voice Memos On the Go
+## Revisit, do not just collect
 
-When you're away from your phone or typing isn't convenient, use **Voice** memories. HelloMnemo automatically transcribes your recording, making it fully searchable as text.
+Mnemo becomes more valuable when you come back through:
 
----
+- timeline
+- search
+- map
+- calendar
+- media views
 
-## Pin Important Memories
+## Keep expectations aligned
 
-Keep your most-accessed memories visible at the top of the home screen by pinning them:
-
-1. Long-press a memory card.
-2. Tap **Pin to Top**.
-
----
-
-## Use Collections as Projects
-
-Think of **Collections** as project folders. Group all memories related to a topic (e.g., "Vacation Planning 2025") into one collection for easy access.
-
----
-
-## Set Smart Reminders
-
-For time-sensitive memories (e.g., a task you need to complete), add a reminder so HelloMnemo pings you at the right moment. Combine reminders with pinned memories for maximum visibility.
-
----
-
-## Share a Collection
-
-Need to share a set of related memories with a friend or colleague? You can share an entire collection as a link:
-
-1. Open the collection.
-2. Tap the **Share** icon.
-3. Choose **Share as Link** and send it.
-
----
-
-## Use Widgets
-
-Add the HelloMnemo widget to your home screen for quick access to your latest memories:
-
-- **iOS**: Long-press the home screen → Tap **+** → Search for HelloMnemo.
-- **Android**: Long-press the home screen → Tap **Widgets** → Search for HelloMnemo.
-
----
-
-## Keyboard Shortcuts (iPad & Tablet)
-
-On iPad or Android tablets with a hardware keyboard, use these shortcuts:
-
-| Shortcut         | Action                   |
-|------------------|--------------------------|
-| `Cmd + N`        | New memory               |
-| `Cmd + F`        | Open search              |
-| `Cmd + ,`        | Open settings            |
-| `Cmd + Shift + C`| Open collections         |
+For now, use Mnemo with a local-first mindset. If you are following project progress, treat cloud accounts, sync, and fuller web support as upcoming layers rather than as assumed defaults.

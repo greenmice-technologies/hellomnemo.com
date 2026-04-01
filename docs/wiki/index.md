@@ -8,10 +8,19 @@ permalink: /docs/wiki/
 
 # Wiki
 
-The HelloMnemo Wiki contains in-depth articles, tips, and answers to common questions.
+The wiki is the public project layer of Mnemo Docs.
+
+Use it for:
+
+- FAQ and expectations
+- project status and rollout context
+- troubleshooting
+- feedback and issue reporting
 
 ## Articles
 
-- [FAQ]({{ site.baseurl }}/docs/wiki/faq/) – Frequently asked questions about the app.
-- [Tips & Tricks]({{ site.baseurl }}/docs/wiki/tips-and-tricks/) – Get the most out of HelloMnemo.
-- [Troubleshooting]({{ site.baseurl }}/docs/wiki/troubleshooting/) – Fix common issues.
+- [FAQ]({{ site.baseurl }}/docs/wiki/faq/)
+- [Project status]({{ site.baseurl }}/docs/wiki/project-status/)
+- [Feedback and issues]({{ site.baseurl }}/docs/wiki/feedback-and-issues/)
+- [Tips & usage ideas]({{ site.baseurl }}/docs/wiki/tips-and-tricks/)
+- [Troubleshooting]({{ site.baseurl }}/docs/wiki/troubleshooting/)

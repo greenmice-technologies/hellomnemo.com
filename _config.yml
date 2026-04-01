@@ -1,11 +1,10 @@
-title: HelloMnemo Documentation
-description: User manuals, wikis, and guides for the HelloMnemo mobile app
+title: Mnemo Docs
+description: Public documentation hub for Mnemo, including user guides, project status, and issue reporting entrypoints.
 baseurl: ""
-url: "https://hellomnemo.com"
+url: "https://docs.hellomnemo.com"
 
 remote_theme: just-the-docs/just-the-docs
 
-# Theme settings
 color_scheme: light
 search_enabled: true
 search:
@@ -17,20 +16,23 @@ search:
   rel_url: true
   button: false
 
-# Navigation
 nav_sort: case_insensitive
 
-# Footer
-footer_content: "&copy; 2024 HelloMnemo. All rights reserved."
+aux_links:
+  "Main site":
+    - "https://hellomnemo.com"
+  "Report an issue":
+    - "https://github.com/greenmice-technologies/hellomnemo.com/issues"
 
-# Back to top
+aux_links_new_tab: true
+
+footer_content: "&copy; 2026 Mnemo. Public docs and project updates."
+
 back_to_top: true
 back_to_top_text: "Back to top"
 
-# Heading anchor links
 heading_anchors: true
 
-# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

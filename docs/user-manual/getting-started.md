@@ -5,51 +5,57 @@ parent: User Manual
 nav_order: 1
 ---
 
-# Getting Started with HelloMnemo
+# Getting Started
 
-This guide walks you through installing the app and setting up your account for the first time.
+Mnemo is designed to help you build a private, structured memory archive instead of scattering notes, screenshots, links, and voice fragments across different apps.
 
----
+## What to expect today
 
-## 1. Download the App
+The current product is centered on offline-first use.
 
-HelloMnemo is available on both major mobile platforms:
+- You can start using Mnemo without relying on cloud sync.
+- Your data is primarily stored locally.
+- Capture and recall workflows are available before cloud continuity is introduced.
 
-- **iOS** – Download from the [App Store](https://apps.apple.com).
-- **Android** – Download from [Google Play](https://play.google.com).
+Cloud account creation and sync-backed continuity are planned next, but they are not yet the default onboarding path documented here.
 
----
+## First steps
 
-## 2. Create an Account
+### 1. Open Mnemo and create your first local setup
 
-1. Open the app after installation.
-2. Tap **Sign Up** on the welcome screen.
-3. Enter your email address and choose a secure password, or sign in with Google or Apple.
-4. Verify your email address using the link sent to your inbox.
+Start with the in-app onboarding or local account flow available in your build. The goal of first-run setup is to give you a private space for capture and recall.
 
----
+### 2. Create your first entry
 
-## 3. Set Up Your Profile
+Use Mnemo to save a first fragment of context, for example:
 
-After signing in for the first time:
+- a note
+- a photo
+- a voice memo
+- a saved link
 
-1. Add your display name and optional profile photo.
-2. Choose your preferred language and notification settings.
-3. Tap **Save** to complete your profile setup.
+### 3. Add structure
 
----
+As you capture, organize entries with:
 
-## 4. Add Your First Memory
+- folders
+- tags
+- place and time metadata
+- reminders
+- references between entries
 
-1. Tap the **+** button on the home screen.
-2. Select a memory type (note, image, voice, or link).
-3. Fill in the details and tap **Save**.
+### 4. Revisit what you saved
 
-Your memory is now stored and searchable!
+Mnemo is meant to be read back, not just filled up. Use the available recall surfaces such as:
 
----
+- timeline
+- search
+- map
+- calendar
+- media views
 
-## Next Steps
+## Next steps
 
-- Explore [Core Features]({{ site.baseurl }}/docs/user-manual/core-features/) to learn what HelloMnemo can do.
-- Read the [FAQ]({{ site.baseurl }}/docs/wiki/faq/) for common questions.
+- Read [Core features]({{ site.baseurl }}/docs/user-manual/core-features/)
+- Read [Privacy & settings]({{ site.baseurl }}/docs/user-manual/account-settings/)
+- Check [Project status]({{ site.baseurl }}/docs/wiki/project-status/) if you want to understand what is live versus what is planned
