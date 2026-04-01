@@ -26,7 +26,13 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          bundler-cache: true
+          bundler-cache: false
+
+      - name: Update Gemfile.lock for Linux
+        run: bundle lock --add-platform x86_64-linux
+
+      - name: Bundle Install
+        run: bundle install
 
       - name: Setup Pages
         id: pages
