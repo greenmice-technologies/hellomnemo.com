@@ -11,7 +11,7 @@ Mnemo is built around one idea: personal memory should stay connected to its con
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">Capability map</p>
-  <p>The product already covers capture, organization, and recall as a coherent loop. This page tracks that loop without overstating cloud-dependent behavior that is still ahead.</p>
+  <p>The product already covers capture, organization, recall, and account access as a coherent loop. This page tracks that loop without overstating sync-dependent behavior that is still ahead.</p>
 </div>
 
 <div class="mnemo-doc-grid">
@@ -33,7 +33,7 @@ Mnemo is built around one idea: personal memory should stay connected to its con
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Storage</p>
     <h3>Local-first handling</h3>
-    <p>Persistence, media storage, and export/import remain the supported baseline until account-backed sync is ready.</p>
+    <p>Persistence, media storage, export/import, and the new account layer now coexist, but sync is still the missing continuity piece.</p>
   </div>
 </div>
 
@@ -78,6 +78,8 @@ Current supported behavior is centered on local persistence.
 - the primary dataset is stored as `data.json`
 - media is stored alongside the dataset
 - ZIP import/export exists for portability and backup
+- cloud accounts are live for identity and authentication flows
+- signing in does not yet imply automatic dataset/media sync
 
 Cloud sync is not yet the documented baseline behavior for end users.
 
@@ -85,10 +87,10 @@ Cloud sync is not yet the documented baseline behavior for end users.
 
 The next strategic steps are:
 
-1. backend-backed account creation and sign-in
-2. cloud sync for data and media continuity
-3. stronger support for Flutter Web once sync exists
+1. cloud sync for data and media continuity
+2. stronger support for Flutter Web once sync exists
+3. rollout hardening for account-related app links, universal links, and distribution touchpoints
 
-Until those steps ship, this manual should describe the app as local-first.
+Until those steps ship, this manual should describe the app as local-first for data continuity, even though cloud account onboarding is already live.
 
 <!-- markdownlint-enable MD033 -->

@@ -30,7 +30,7 @@ has_toc: false
         </div>
         <div class="mnemo-stat-card">
           <strong>Current scope</strong>
-          <span>Offline-first app guidance with product status and support routing.</span>
+          <span>Local-first app guidance with cloud account status, product posture, and support routing.</span>
         </div>
       </div>
       <div class="mnemo-hero__actions">
@@ -41,7 +41,7 @@ has_toc: false
   </div>
   <div class="mnemo-pill-row">
     <span class="mnemo-pill">Offline-first today</span>
-    <span class="mnemo-pill">Cloud account next</span>
+    <span class="mnemo-pill">Cloud account live</span>
     <span class="mnemo-pill">Sync before full web support</span>
   </div>
 </section>
@@ -75,17 +75,17 @@ This documentation site is the public hub for product guidance, project status, 
 
 - The Flutter app is currently centered on private, offline-first use.
 - Local capture, organization, reminders, search, map, calendar, media, and export/import workflows already exist.
-- Cloud account integration is planned next through the Mnemo web/backend platform.
-- Cloud sync and a fully supported Flutter Web experience come after account integration.
+- Cloud account creation, verification, sign-in, password reset, delete-account flows, and provider sign-in are live through the Mnemo web/backend platform.
+- Cloud sync and a fully supported Flutter Web experience still come after account integration.
 
 <div class="mnemo-grid">
   <div class="mnemo-card mnemo-card--third">
     <h3>What is supported now</h3>
-    <p>Private capture, structured recall, and local-first usage are the current product baseline.</p>
+    <p>Private capture, structured recall, local-first usage, and cloud account onboarding/authentication are the current baseline.</p>
   </div>
   <div class="mnemo-card mnemo-card--third">
     <h3>What is coming next</h3>
-    <p>Backend-backed accounts and JWT-authenticated continuity from the app to the web platform.</p>
+    <p>Dataset/media sync and the continuity layer that makes accounts matter across devices.</p>
   </div>
   <div class="mnemo-card mnemo-card--third">
     <h3>What depends on sync</h3>

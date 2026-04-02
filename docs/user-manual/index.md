@@ -20,11 +20,12 @@ permalink: /docs/user-manual/
 
 ## Product posture
 
-The current app posture is local-first:
+The current app posture is local-first with a live cloud account layer:
 
-- your journal data lives on device by default
-- private capture and recall workflows are the current focus
-- cloud account and sync flows are planned, but are not yet the baseline user experience
+- your journal data still lives on device by default
+- private capture and recall workflows remain the current focus
+- cloud account onboarding and sign-in are available
+- sync and automatic multi-device continuity are not yet the baseline user experience
 
 <div class="mnemo-doc-grid">
   <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/user-manual/getting-started/">

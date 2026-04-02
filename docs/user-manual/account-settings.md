@@ -8,11 +8,11 @@ permalink: /docs/user-manual/account-settings/
 
 <!-- markdownlint-disable MD033 -->
 
-Mnemo is designed around private memory capture first. The settings area should help users control that private space before cloud continuity is introduced.
+Mnemo is designed around private memory capture first. The settings area should help users control that private space while also exposing the cloud account layer that is now live.
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">Control surface</p>
-  <p>This page covers the settings model users can rely on today: protection, preferences, and local data controls before cloud-account management exists as a public baseline.</p>
+  <p>This page covers the settings model users can rely on today: protection, preferences, local data controls, and cloud-account management without implying that sync is already the norm.</p>
 </div>
 
 <div class="mnemo-doc-grid">
@@ -29,7 +29,7 @@ Mnemo is designed around private memory capture first. The settings area should 
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Data</p>
     <h3>Local data handling</h3>
-    <p>Storage expectations, exports, imports, and what stays on device are central to the current local-first documentation posture.</p>
+    <p>Storage expectations, exports, imports, and what stays on device remain central even now that cloud account access is available.</p>
   </div>
 </div>
 
@@ -61,16 +61,22 @@ Public docs should prioritize the workflows that already exist today, including:
 - export/import where available
 - what stays on device by default
 
-## Cloud account note
+## Cloud account management
 
-Backend-backed cloud accounts are planned, but they are not yet the default user path this manual should promise.
+Cloud accounts are now part of the supported product surface.
 
-When cloud account support goes live, this section should be expanded to cover:
+Public docs can now cover:
 
 - account creation
+- email verification
 - sign-in
-- token/session behavior
-- sync-related account controls
+- password reset
+- account deletion
+- supported provider sign-in
+
+## Sync note
+
+Account management is live, but sync-related account controls are still limited because dataset/media sync is not yet the baseline product behavior.
 
 ## Related pages
 

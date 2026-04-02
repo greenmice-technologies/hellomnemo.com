@@ -7,18 +7,18 @@ nav_order: 5
 
 <!-- markdownlint-disable MD033 -->
 
-This page focuses on conservative guidance that matches the current product state.
+This page focuses on guidance that matches the current product state.
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">Expectation gaps</p>
-  <p>Most friction points come from assuming cloud-backed continuity or broader support than the current product baseline actually provides. Start with the documented scope, then troubleshoot outward.</p>
+  <p>Most friction points come from assuming cloud-backed continuity or broader web support than the current baseline actually provides. Start with the documented scope, then troubleshoot outward.</p>
 </div>
 
 <div class="mnemo-doc-grid">
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Sync</p>
     <h3>Another device is empty</h3>
-    <p>Until cloud continuity ships, do not assume entries propagate automatically. Use the documented local/export-import flows instead.</p>
+    <p>Cloud account sign-in is live, but it still does not mean entries propagate automatically. Use the documented local/export-import flows instead.</p>
   </div>
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Discovery</p>
@@ -34,7 +34,7 @@ This page focuses on conservative guidance that matches the current product stat
 
 ## I expected cloud sync, but I cannot find it
 
-Current public documentation treats Mnemo as local-first by default. If you are testing internal builds or following development work, remember that backend account integration and sync are planned layers, not baseline public behavior yet.
+Current public documentation treats Mnemo as local-first for data by default. Cloud account integration is live, but sync is still a planned layer, so signing in alone does not move your dataset across devices.
 
 ## I cannot find my saved data on another device
 

@@ -11,10 +11,10 @@ Mnemo is designed to help you build a private, structured memory archive instead
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">First run</p>
-  <p>Use this page to set expectations correctly: Mnemo is already useful as a private, local-first memory system before cloud accounts and sync become part of the product baseline.</p>
+  <p>Use this page to set expectations correctly: Mnemo is already useful as a private, local-first memory system, and cloud accounts are now available without changing the fact that sync is still a later layer.</p>
   <div class="mnemo-doc-tags">
     <span class="mnemo-doc-tag">Private setup first</span>
-    <span class="mnemo-doc-tag">Capture before sync</span>
+    <span class="mnemo-doc-tag">Cloud account available</span>
     <span class="mnemo-doc-tag">Recall surfaces already live</span>
   </div>
 </div>
@@ -24,16 +24,16 @@ Mnemo is designed to help you build a private, structured memory archive instead
     <p class="mnemo-doc-kicker">Today</p>
     <h3>What to expect</h3>
     <ul class="mnemo-check-list">
-      <li>Start locally without depending on cloud continuity.</li>
+      <li>Start locally or create/sign in with a cloud account.</li>
       <li>Build a personal archive with entries, media, and structure.</li>
-      <li>Use recall surfaces immediately after capture.</li>
+      <li>Use recall surfaces immediately after capture, without assuming sync yet.</li>
     </ul>
   </div>
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">First actions</p>
     <h3>Recommended sequence</h3>
     <ul class="mnemo-check-list">
-      <li>Create a local setup or profile.</li>
+      <li>Create a local setup or sign in with a cloud account.</li>
       <li>Capture a first note, photo, voice memo, or link.</li>
       <li>Add folders, tags, time, place, or reminders.</li>
     </ul>
@@ -42,19 +42,20 @@ Mnemo is designed to help you build a private, structured memory archive instead
 
 ## What to expect today
 
-The current product is centered on offline-first use.
+The current product is centered on offline-first use, with cloud account onboarding now live.
 
 - You can start using Mnemo without relying on cloud sync.
-- Your data is primarily stored locally.
+- You can also create or sign in with a cloud account if you want backend-backed identity and account recovery flows.
+- Your dataset is still primarily stored locally until sync ships.
 - Capture and recall workflows are available before cloud continuity is introduced.
 
-Cloud account creation and sync-backed continuity are planned next, but they are not yet the default onboarding path documented here.
+Cloud account creation is no longer future work. Sync-backed continuity is the layer that still comes next.
 
 ## First steps
 
-### 1. Open Mnemo and create your first local setup
+### 1. Open Mnemo and choose your account path
 
-Start with the in-app onboarding or local account flow available in your build. The goal of first-run setup is to give you a private space for capture and recall.
+Start with the in-app onboarding available in your build. You can stay local-only or create/sign in with a cloud account. The goal of first-run setup is still to give you a private space for capture and recall.
 
 ### 2. Create your first entry
 
@@ -84,6 +85,19 @@ Mnemo is meant to be read back, not just filled up. Use the available recall sur
 - map
 - calendar
 - media views
+
+## Cloud account note
+
+Cloud accounts now cover identity and authentication flows such as:
+
+- account creation
+- email verification
+- sign-in
+- password reset
+- account deletion
+- supported provider sign-in
+
+Those flows do not yet imply automatic dataset/media propagation across devices.
 
 ## Next steps
 

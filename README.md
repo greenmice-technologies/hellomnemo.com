@@ -25,8 +25,8 @@ Mnemo is documented here as a private, offline-first memory system.
 Current public guidance should reflect the real product state:
 
 - local-first usage is the current default
-- cloud account integration is planned next
-- cloud sync and full Flutter Web support come after account integration
+- cloud account integration is live
+- cloud sync and full Flutter Web support still come after account integration
 
 Do not publish docs that imply cloud sync, multi-device continuity, or fully supported web app flows until they are actually available.
 
