@@ -1,17 +1,18 @@
 ---
 layout: default
 title: Feedback and Issues
-parent: Wiki
-nav_order: 3
+parent: Support
+nav_order: 2
+permalink: /docs/support/contact/
 ---
 
 <!-- markdownlint-disable MD033 -->
 
-This repository is the public entrypoint for issue tracking around Mnemo documentation and product feedback.
+Use this page when Mnemo feels unclear, broken, or incomplete for a real workflow.
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">Public intake</p>
-  <p>Use the public tracker for bugs, docs corrections, feature requests, and onboarding friction. High-signal reports make triage and follow-up much faster.</p>
+  <p>Use the public tracker for bugs, documentation corrections, feature requests, and onboarding friction. Clear reports make triage much faster.</p>
 </div>
 
 <div class="mnemo-doc-grid">
@@ -29,8 +30,8 @@ This repository is the public entrypoint for issue tracking around Mnemo documen
     <h3>Quick verification</h3>
     <ul class="mnemo-check-list">
       <li>Check the FAQ for current positioning.</li>
-      <li>Check project status for rollout reality.</li>
-      <li>Check troubleshooting for known expectation gaps.</li>
+      <li>Check troubleshooting for common expectation gaps.</li>
+      <li>Check availability notes if the question is about continuity or web caveats.</li>
     </ul>
   </div>
 </div>
@@ -45,9 +46,9 @@ This repository is the public entrypoint for issue tracking around Mnemo documen
 
 ## Before opening an issue
 
-- check the [FAQ]({{ site.baseurl }}/docs/wiki/faq/)
-- check [Project status]({{ site.baseurl }}/docs/wiki/project-status/)
-- check [Troubleshooting]({{ site.baseurl }}/docs/wiki/troubleshooting/)
+- check the [FAQ]({{ site.baseurl }}/docs/faq/)
+- check [Troubleshooting]({{ site.baseurl }}/docs/support/troubleshooting/)
+- check [Availability notes]({{ site.baseurl }}/docs/support/availability/) if the question is about continuity or web caveats
 
 ## Open an issue
 

@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Tips & Usage Ideas
-parent: Wiki
+title: Usage Ideas
+parent: Support
 nav_order: 4
+permalink: /docs/support/usage-ideas/
 ---
 
 <!-- markdownlint-disable MD033 -->
@@ -34,7 +35,7 @@ Mnemo works best when you use it as a memory system, not only as a place to dump
 
 ## Capture different kinds of context
 
-Instead of storing everything as plain notes, combine:
+Instead of storing everything as plain text snippets, combine:
 
 - text
 - photos
@@ -61,6 +62,6 @@ Mnemo becomes more valuable when you come back through:
 
 ## Keep expectations aligned
 
-Use Mnemo with a local-first mindset for data continuity. Cloud accounts and cloud sync are now available, while fuller web support should still be treated as available with caveats rather than assumed parity in every scenario.
+Use Mnemo with a local-first mindset for continuity. Cloud account and sync flows are available, while fuller web support should still be treated as available with caveats rather than assumed parity in every scenario.
 
 <!-- markdownlint-enable MD033 -->

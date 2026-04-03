@@ -1,45 +1,46 @@
 ---
 layout: default
 title: Privacy & Settings
-parent: User Manual
-nav_order: 3
-permalink: /docs/user-manual/account-settings/
+nav_order: 5
+permalink: /docs/privacy-settings/
 ---
 
 <!-- markdownlint-disable MD033 -->
 
-Mnemo is designed around private memory capture first. The settings area should help users control that private space while also exposing the cloud account layer that is now live.
+Mnemo is designed around a private archive first. Settings should help you protect that archive, tune how it behaves, and decide how much continuity you want.
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">Control surface</p>
-  <p>This page covers the settings model users can rely on today: protection, preferences, local data controls, cloud-account management, and the current caveated sync surface.</p>
+  <p>Use this area to control access, preferences, notifications, archive handling, and any cloud-account options available in your build.</p>
 </div>
 
 <div class="mnemo-doc-grid">
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Protection</p>
     <h3>Local access controls</h3>
-    <p>Depending on build capabilities, users may have local sign-in, passcode, biometric gates, or relock behavior after backgrounding.</p>
+    <p>Depending on your build, Mnemo can expose local sign-in, passcode, biometrics, or relock behavior after the app leaves the foreground.</p>
   </div>
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Preferences</p>
     <h3>Experience tuning</h3>
-    <p>Appearance, language, playback, links, and notification choices belong here when those controls are available in the build.</p>
+    <p>Appearance, language, playback, link handling, and notification choices help the archive feel personal and manageable.</p>
   </div>
   <div class="mnemo-doc-card">
-    <p class="mnemo-doc-kicker">Data</p>
-    <h3>Local data handling</h3>
-    <p>Storage expectations, exports, imports, and what stays on device remain central even now that cloud account access and cloud sync are available.</p>
+    <p class="mnemo-doc-kicker">Archive</p>
+    <h3>Privacy and data controls</h3>
+    <p>Export, import, local storage expectations, and archive handling remain central even when continuity is enabled.</p>
   </div>
 </div>
 
-## Local account and protection
+## Protect access
 
-Depending on the build, Mnemo can include local account and app protection features such as:
+Depending on the build, Mnemo can include protection features such as:
 
 - local sign-in or profile setup
 - passcode or biometric lock
 - protected access after backgrounding
+
+These controls matter because Mnemo is meant to hold a private archive, not disposable content.
 
 ## Preferences
 
@@ -51,37 +52,41 @@ Available settings may include:
 - link opening behavior
 - notification preferences
 
-## Data controls
+## Archive controls
 
-The current local-first product direction makes data controls especially important.
+Archive controls are especially important when you care about ownership and recovery.
 
-Public docs should prioritize the workflows that already exist today, including:
+What to look for:
 
 - local storage expectations
-- export/import where available
+- export and import where available
 - what stays on device by default
+- how continuity behaves once enabled
 
 ## Cloud account management
 
-Cloud accounts are now part of the supported product surface.
+If your build includes cloud continuity, settings may also include:
 
-Public docs can now cover:
-
+- sign-in
 - account creation
 - email verification
-- sign-in
 - password reset
 - account deletion
 - supported provider sign-in
 
-## Sync note
+## Notifications and reminders
 
-Sync-related account controls are still more limited than the rest of the settings surface. Cloud sync is available, but some builds may still require explicit vault unlock or manual retry flows, and the web surface should still be documented with caveats.
+Notification settings shape how Mnemo resurfaces memory over time. If reminders matter to your workflow, check both device-level permissions and in-app options.
+
+## Continuity note
+
+Cloud continuity is available, but some builds may still require an explicit unlock step or a manual retry before recent changes appear elsewhere. Keep browser-based use in the category of available with caveats rather than assumed parity in every scenario.
 
 ## Related pages
 
-- [Getting started]({{ site.baseurl }}/docs/user-manual/getting-started/)
-- [Core features]({{ site.baseurl }}/docs/user-manual/core-features/)
-- [Feedback and issues]({{ site.baseurl }}/docs/wiki/feedback-and-issues/)
+- [Getting started]({{ site.baseurl }}/docs/getting-started/)
+- [Features]({{ site.baseurl }}/docs/features/)
+- [Cloud & sync]({{ site.baseurl }}/docs/cloud-sync/)
+- [Support]({{ site.baseurl }}/docs/support/)
 
 <!-- markdownlint-enable MD033 -->

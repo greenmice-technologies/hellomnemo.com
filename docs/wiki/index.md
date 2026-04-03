@@ -1,59 +1,59 @@
 ---
 layout: default
-title: Wiki
-nav_order: 3
+title: Support
+nav_order: 7
 has_children: true
-permalink: /docs/wiki/
+permalink: /docs/support/
 ---
 
 <!-- markdownlint-disable MD033 -->
 
 <div class="mnemo-doc-intro">
-  <p class="mnemo-doc-intro__eyebrow">Project layer</p>
-  <p>The wiki is the public project layer of Mnemo Docs: expectations, rollout context, troubleshooting, and the public path for issues and feedback.</p>
+  <p class="mnemo-doc-intro__eyebrow">Help and issue routing</p>
+  <p>Use this area when you need quick answers, troubleshooting, or a path to report a problem. It supports the product pages without turning the site into a roadmap browser.</p>
   <div class="mnemo-doc-tags">
     <span class="mnemo-doc-tag">FAQ and support</span>
-    <span class="mnemo-doc-tag">Status clarity</span>
+    <span class="mnemo-doc-tag">Troubleshooting</span>
     <span class="mnemo-doc-tag">Issue routing</span>
   </div>
 </div>
 
 Use it for:
 
-- FAQ and expectations
-- project status and rollout context
-- troubleshooting
+- quick answers about Mnemo
+- troubleshooting and expectation gaps
 - feedback and issue reporting
+- secondary availability notes when a feature needs caveats
 
 <div class="mnemo-doc-grid">
-  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/wiki/faq/">
-    <p class="mnemo-doc-kicker">Positioning</p>
+  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/faq/">
+    <p class="mnemo-doc-kicker">Quick answers</p>
     <strong>FAQ</strong>
-    <span>Short answers about what Mnemo is, what is supported today, and how to think about web and cloud readiness.</span>
+    <span>Short answers about Memory OS framing, privacy, continuity, and how Mnemo differs from simpler note tools.</span>
   </a>
-  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/wiki/project-status/">
-    <p class="mnemo-doc-kicker">Roadmap</p>
-    <strong>Project status</strong>
-    <span>See the current state, immediate milestones, and the documentation policy used across this site.</span>
-  </a>
-  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/wiki/feedback-and-issues/">
-    <p class="mnemo-doc-kicker">Support</p>
-    <strong>Feedback and issues</strong>
-    <span>Use the public repository to report bugs, request features, or point out documentation gaps.</span>
-  </a>
-  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/wiki/troubleshooting/">
+  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/support/troubleshooting/">
     <p class="mnemo-doc-kicker">Recovery</p>
     <strong>Troubleshooting</strong>
-    <span>Conservative guidance for common expectation gaps around sync, search, reminders, and product scope.</span>
+    <span>Use this when sync, search, reminders, or another device do not behave as expected.</span>
+  </a>
+  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/support/contact/">
+    <p class="mnemo-doc-kicker">Support</p>
+    <strong>Feedback and issues</strong>
+    <span>Use the public issue tracker to report bugs, request features, or point out unclear docs.</span>
+  </a>
+  <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/support/availability/">
+    <p class="mnemo-doc-kicker">Secondary notes</p>
+    <strong>Availability notes</strong>
+    <span>Use this only when you need a short explanation of where continuity or web support still carries caveats.</span>
   </a>
 </div>
 
 ## Articles
 
-- [FAQ]({{ site.baseurl }}/docs/wiki/faq/)
-- [Project status]({{ site.baseurl }}/docs/wiki/project-status/)
-- [Feedback and issues]({{ site.baseurl }}/docs/wiki/feedback-and-issues/)
-- [Tips & usage ideas]({{ site.baseurl }}/docs/wiki/tips-and-tricks/)
-- [Troubleshooting]({{ site.baseurl }}/docs/wiki/troubleshooting/)
+- [FAQ]({{ site.baseurl }}/docs/faq/)
+- [Troubleshooting]({{ site.baseurl }}/docs/support/troubleshooting/)
+- [Feedback and issues]({{ site.baseurl }}/docs/support/contact/)
+- [Usage ideas]({{ site.baseurl }}/docs/support/usage-ideas/)
+- [Availability notes]({{ site.baseurl }}/docs/support/availability/)
 
 <!-- markdownlint-enable MD033 -->

@@ -1,60 +1,48 @@
 ---
 layout: default
-title: Project Status
-parent: Wiki
-nav_order: 2
+title: Availability Notes
+parent: Support
+nav_order: 5
+permalink: /docs/support/availability/
 ---
 
 <!-- markdownlint-disable MD033 -->
 
-This page exists to separate current reality from future intent.
+This page exists to keep a few support-sensitive expectations clear.
 
 <div class="mnemo-doc-intro">
-  <p class="mnemo-doc-intro__eyebrow">Roadmap context</p>
-  <p>Use this page to explain where the product is today, what the next milestones are, and how that should constrain public-facing documentation.</p>
+  <p class="mnemo-doc-intro__eyebrow">Short status notes</p>
+  <p>Use this page only when you need a short explanation of what is broadly available today and where caveats still matter for continuity or browser-based use.</p>
 </div>
 
 <div class="mnemo-doc-grid">
   <div class="mnemo-doc-card">
-    <p class="mnemo-doc-kicker">Current</p>
-    <h3>What is already real</h3>
-    <p>The app is still local-first by design, while the site/backend now serves as the public, editorial, account/auth, and cloud-sync foundation.</p>
+    <p class="mnemo-doc-kicker">Baseline</p>
+    <h3>Private archive first</h3>
+    <p>Mnemo is already useful as a private archive for capture, context, and recall on a local-first basis.</p>
   </div>
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Available with caveats</p>
-    <h3>What needs careful wording</h3>
-    <p>Sync-backed continuity and the web surface are real, but they still need explicit caveats around browser/runtime limits and rollout hardening.</p>
+    <h3>Continuity and web</h3>
+    <p>Cloud continuity and browser-based access are available, but some environments still need more cautious expectations than native local use.</p>
   </div>
   <div class="mnemo-doc-card">
-    <p class="mnemo-doc-kicker">Policy</p>
-    <h3>How docs should speak</h3>
-    <p>Describe account and sync as supported, describe the web surface as available with caveats, and keep residual rollout work clearly separated from shipped capability.</p>
+    <p class="mnemo-doc-kicker">Fallback</p>
+    <h3>Archive control still matters</h3>
+    <p>Import, export, and local handling remain important whenever continuity is not the right fit for a device or moment.</p>
   </div>
 </div>
 
-## Current state
+## Short version
 
-- The Flutter app is primarily local-first.
-- Core memory capture and recall workflows already exist.
-- The public website already works as a marketing/editorial backend.
-- Cloud account creation, verification, sign-in, password reset, deletion, JWT auth, and provider sign-in are live across supported app surfaces.
-- Cloud dataset and media sync are available through the same backend.
-- The public website/backend actively powers the shipped account layer and the live continuity layer.
+- Local-first use is the clearest default posture.
+- Capture, organization, and recall surfaces are part of the current product, not future intent.
+- Cloud account and sync-backed continuity are available.
+- Browser-based use should still be documented with explicit caveats.
+- Archive portability remains part of the support story.
 
-## Next major milestones
+## Why this page is secondary
 
-1. Reduce residual browser/runtime caveats on the web surface.
-2. Improve reliability, observability, and UX around sync and recovery flows.
-3. Finish rollout hardening for universal links, app links, and other external operational dependencies.
-
-## Documentation policy
-
-Public docs should:
-
-- describe shipped user behavior as supported
-- describe cloud accounts and cloud sync as live
-- describe the web surface as available with caveats
-- describe planned work as planned
-- avoid claiming feature-perfect parity where residual caveats still exist
+If you want to understand Mnemo, start with [Getting started]({{ site.baseurl }}/docs/getting-started/) or [Features]({{ site.baseurl }}/docs/features/). Use this page only when you need a quick availability note for support conversations.
 
 <!-- markdownlint-enable MD033 -->

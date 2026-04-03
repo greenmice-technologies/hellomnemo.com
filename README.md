@@ -1,39 +1,36 @@
-# Mnemo Docs
+# docs.hellomnemo.com
 
-Public documentation repository for Mnemo.
+Technical repository for the Mnemo GitHub Pages site.
 
-This repository is the public entrypoint for:
+This repo publishes the static user-facing documentation surface for Mnemo at `https://docs.hellomnemo.com`. It is not the canonical source for product contracts, backend behavior, or persisted model details.
 
-- user-facing documentation
-- project status and rollout notes
-- issue tracking and feedback routing
+## Canonical technical references
 
-Repository: `greenmice-technologies/hellomnemo.com`
+- Cross-repo assessment and shared documentation policy: [`../hellomnemo.com/docs/index.md`](../hellomnemo.com/docs/index.md)
+- Persisted model mirror and compatibility notes: [`../hellomnemo.com/docs/models/README.md`](../hellomnemo.com/docs/models/README.md)
+- Cloud account and sync configuration catalog: [`../hellomnemo.com/docs/configuration.md`](../hellomnemo.com/docs/configuration.md)
+- Web/backend repository: [`../hellomnemo.com/README.md`](../hellomnemo.com/README.md)
+- Flutter client repository: [`../mnemo/readme.md`](../mnemo/readme.md)
 
-The site is published with GitHub Pages and is intended to live at `https://docs.hellomnemo.com`.
+Use this repository for the static user site only. Shared technical references remain upstream in `hellomnemo.com/docs/`.
 
 ## Site structure
 
-- `index.md`: documentation hub home
-- `docs/user-manual/`: public user guidance for supported app workflows
-- `docs/wiki/`: project FAQ, status notes, troubleshooting, and feedback/issue routing
+- `index.md`: public homepage for Mnemo users
+- `docs/user-manual/`: getting started, features, privacy/settings, and cloud/sync guidance
+- `docs/wiki/`: FAQ, troubleshooting, support routing, and secondary status notes
+- `_config.yml`: Jekyll and Just the Docs configuration
 
-## Product framing
+## Stack and prerequisites
 
-Mnemo is documented here as a private, offline-first memory system with cloud continuity available.
-
-Current public guidance should reflect the real product state:
-
-- local-first usage is the current default
-- cloud account integration is live
-- cloud sync is available
-- Flutter Web is available with caveats rather than documented as feature-perfect parity
-
-Do not publish docs that deny real sync capabilities, but do not overstate browser support or continuity reliability beyond what is actually documented.
+- Ruby
+- Bundler
+- Jekyll
+- GitHub Pages / Just the Docs theme configuration in this repo
 
 ## Local development
 
-Requires Ruby and Bundler.
+Install dependencies and run the local site:
 
 ```bash
 bundle install
@@ -42,12 +39,18 @@ bundle exec jekyll serve
 
 Open `http://localhost:4000`.
 
+Build locally without serving:
+
+```bash
+bundle exec jekyll build
+```
+
 ## Deployment
 
 The site is deployed through GitHub Pages via `.github/workflows/pages.yml` on pushes to `main`.
 
-If the site is served from `docs.hellomnemo.com`, make sure:
+If the site is served from `docs.hellomnemo.com`, keep Pages and DNS aligned:
 
-- the repository Pages settings use that custom domain
-- DNS for `docs.hellomnemo.com` points to GitHub Pages with a `CNAME`
-- HTTPS is enabled in Pages settings once DNS resolves correctly
+- repository Pages settings use the correct branch and custom domain
+- DNS for `docs.hellomnemo.com` points to GitHub Pages
+- HTTPS is enabled in Pages settings after DNS resolution

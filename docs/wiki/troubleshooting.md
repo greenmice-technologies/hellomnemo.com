@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Troubleshooting
-parent: Wiki
-nav_order: 5
+parent: Support
+nav_order: 3
+permalink: /docs/support/troubleshooting/
 ---
 
 <!-- markdownlint-disable MD033 -->
@@ -11,14 +12,14 @@ This page focuses on guidance that matches the current product state.
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">Expectation gaps</p>
-  <p>Most friction points come from assuming continuity is either automatic in every case or unavailable altogether. Start with the documented scope, then troubleshoot outward.</p>
+  <p>Most friction points come from treating continuity as either automatic everywhere or absent everywhere. Start with the documented scope, then troubleshoot outward.</p>
 </div>
 
 <div class="mnemo-doc-grid">
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Sync</p>
     <h3>Another device is empty</h3>
-    <p>Cloud sync is available, but another device may still require sign-in, vault unlock, or a manual retry before the dataset is visible.</p>
+    <p>Continuity is available, but another device may still require sign-in, unlock, or a manual retry before the archive appears.</p>
   </div>
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Discovery</p>
@@ -34,14 +35,14 @@ This page focuses on guidance that matches the current product state.
 
 ## I expected cloud sync, but I cannot find it
 
-Current public documentation treats Mnemo as local-first by design, with cloud sync available on top of that. If you cannot find sync behavior, check that you are signed in, that cloud storage is unlocked when required, and that the current build exposes the expected sync controls.
+Mnemo is local-first by design, with continuity available on top. If you cannot find sync behavior, check that you are signed in, that any required unlock step is complete, and that your build exposes the expected sync controls.
 
 ## I cannot find my saved data on another device
 
 Start with the cloud path rather than assuming sync is absent:
 
 - verify you are signed in with the same cloud account
-- verify the cloud vault is unlocked if your build requires it
+- verify any required cloud unlock step is complete
 - trigger a manual sync from settings if the current build exposes that control
 - fall back to local/export-import flows if the current environment is still constrained or offline
 
@@ -59,6 +60,6 @@ Start with the cloud path rather than assuming sync is absent:
 
 ## I am unsure whether a feature is supported or just planned
 
-Use [Project status]({{ site.baseurl }}/docs/wiki/project-status/) as the reference page. If the docs are unclear, open an issue so the wording can be corrected.
+Use [Availability notes]({{ site.baseurl }}/docs/support/availability/) as the short reference page. If the docs are unclear, open an issue so the wording can be corrected.
 
 <!-- markdownlint-enable MD033 -->

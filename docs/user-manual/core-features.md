@@ -1,52 +1,56 @@
 ---
 layout: default
 title: Core Features
-parent: User Manual
-nav_order: 2
+nav_order: 4
+permalink: /docs/features/core/
 ---
 
 <!-- markdownlint-disable MD033 -->
 
-Mnemo is built around one idea: personal memory should stay connected to its context.
+Mnemo is built around one idea: memory becomes more useful when its context stays attached.
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">Capability map</p>
-  <p>The product already covers capture, organization, recall, account access, and cloud continuity as a coherent loop. This page tracks that loop without overstating the caveats that still exist on the web/runtime side.</p>
+  <p>Think of Mnemo as a loop rather than a single editor: capture, organize, resurface, protect, and carry your archive forward.</p>
 </div>
 
 <div class="mnemo-doc-grid">
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Input</p>
     <h3>Capture</h3>
-    <p>Text, media, links, and attachments are the raw fragments Mnemo helps preserve with context attached.</p>
+    <p>Capture writing, media, files, places, and reminders before those fragments disappear into separate tools.</p>
   </div>
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Structure</p>
     <h3>Organize</h3>
-    <p>Folders, tags, related entries, time, place, and reminders turn collected fragments into retrievable memory.</p>
+    <p>Folders, tags, time, place, reminders, and links between entries keep the archive understandable later.</p>
   </div>
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Output</p>
     <h3>Recall surfaces</h3>
-    <p>Timeline, search, map, calendar, and media views are designed to bring memories back when they matter.</p>
+    <p>Timeline, search, map, calendar, reminders, and media views are designed to bring memory back when it matters.</p>
   </div>
   <div class="mnemo-doc-card">
-    <p class="mnemo-doc-kicker">Storage</p>
-    <h3>Local-first plus cloud continuity</h3>
-    <p>Persistence, media storage, export/import, cloud accounts, and cloud sync now coexist in the current product surface.</p>
+    <p class="mnemo-doc-kicker">Ownership</p>
+    <h3>Private archive</h3>
+    <p>Mnemo keeps privacy, archive control, and portability central, with continuity available on top when you want it.</p>
   </div>
 </div>
 
 ## Capture
 
-Mnemo supports multimodal capture for memory fragments such as:
+Mnemo supports multimodal capture for fragments such as:
 
-- text entries
+- writing and rich text
 - photos
 - audio and voice notes
 - videos
 - document attachments
 - saved links
+- places and timestamps
+- reminders tied to a moment or entry
+
+The point is not to create more material. It is to preserve enough signal that a fragment still means something later.
 
 ## Organize
 
@@ -60,6 +64,8 @@ Entries can be structured with:
 - place metadata
 - reminders
 
+This is what turns scattered fragments into memory with context instead of loose content with no retrieval path.
+
 ## Recall surfaces
 
 Mnemo is not only a place to save things. It is designed to help you find them again through:
@@ -71,28 +77,31 @@ Mnemo is not only a place to save things. It is designed to help you find them a
 - media-driven browsing
 - reminder-based resurfacing
 
-## Local-first data handling
+Each surface answers a different recall need. Sometimes you remember a place. Sometimes a date. Sometimes an image, a word, or a person linked to the moment.
 
-Current supported behavior is centered on local persistence with cloud continuity available on top.
+## Private archive and portability
 
-- the primary dataset is stored as `data.json`
-- media is stored alongside the dataset
-- ZIP import/export exists for portability and backup
-- cloud accounts are live for identity and authentication flows
-- cloud sync is available for dataset and media continuity
-- manual and automatic sync paths may both appear depending on platform and current build
-- local storage remains part of the product even when the cloud layer is enabled
+Mnemo is built so the archive remains understandable and portable:
 
-Cloud continuity is now part of the documented product behavior, but web/browser caveats should still be called out explicitly.
+- local-first use remains a valid way to use the product
+- export and import help with backup, movement, and recovery
+- protected access and privacy controls help keep the archive personal
+- cloud continuity can extend the archive across devices when you want that layer
 
-## What is changing next
+Cloud continuity is part of the current product surface, but it should still be described with realistic caveats where environments behave differently.
 
-The next strategic steps are:
+## How the loop works in practice
 
-1. stronger reliability and observability for sync behavior
-2. tighter browser/runtime hardening for Flutter Web
-3. rollout hardening for account-related app links, universal links, and distribution touchpoints
+1. Capture something worth keeping.
+2. Attach enough context that it stays meaningful.
+3. Revisit it through the surface that matches how you remember.
+4. Protect and carry the archive forward with privacy controls and optional continuity.
 
-Until those steps are finished, this manual should describe the app as local-first with cloud continuity available, and the web surface as available with caveats.
+## Related pages
+
+- [Getting started]({{ site.baseurl }}/docs/getting-started/)
+- [Privacy & settings]({{ site.baseurl }}/docs/privacy-settings/)
+- [Cloud & sync]({{ site.baseurl }}/docs/cloud-sync/)
+- [Support]({{ site.baseurl }}/docs/support/)
 
 <!-- markdownlint-enable MD033 -->
