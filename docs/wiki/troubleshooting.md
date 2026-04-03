@@ -11,14 +11,14 @@ This page focuses on guidance that matches the current product state.
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">Expectation gaps</p>
-  <p>Most friction points come from assuming cloud-backed continuity or broader web support than the current baseline actually provides. Start with the documented scope, then troubleshoot outward.</p>
+  <p>Most friction points come from assuming continuity is either automatic in every case or unavailable altogether. Start with the documented scope, then troubleshoot outward.</p>
 </div>
 
 <div class="mnemo-doc-grid">
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Sync</p>
     <h3>Another device is empty</h3>
-    <p>Cloud account sign-in is live, but it still does not mean entries propagate automatically. Use the documented local/export-import flows instead.</p>
+    <p>Cloud sync is available, but another device may still require sign-in, vault unlock, or a manual retry before the dataset is visible.</p>
   </div>
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Discovery</p>
@@ -34,11 +34,16 @@ This page focuses on guidance that matches the current product state.
 
 ## I expected cloud sync, but I cannot find it
 
-Current public documentation treats Mnemo as local-first for data by default. Cloud account integration is live, but sync is still a planned layer, so signing in alone does not move your dataset across devices.
+Current public documentation treats Mnemo as local-first by design, with cloud sync available on top of that. If you cannot find sync behavior, check that you are signed in, that cloud storage is unlocked when required, and that the current build exposes the expected sync controls.
 
 ## I cannot find my saved data on another device
 
-Until cloud-backed continuity is fully shipped, do not assume entries automatically appear across devices. Use the product according to the currently documented local/export-import flows.
+Start with the cloud path rather than assuming sync is absent:
+
+- verify you are signed in with the same cloud account
+- verify the cloud vault is unlocked if your build requires it
+- trigger a manual sync from settings if the current build exposes that control
+- fall back to local/export-import flows if the current environment is still constrained or offline
 
 ## Search is not finding what I expect
 

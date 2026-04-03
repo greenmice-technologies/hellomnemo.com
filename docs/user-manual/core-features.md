@@ -11,7 +11,7 @@ Mnemo is built around one idea: personal memory should stay connected to its con
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">Capability map</p>
-  <p>The product already covers capture, organization, recall, and account access as a coherent loop. This page tracks that loop without overstating sync-dependent behavior that is still ahead.</p>
+  <p>The product already covers capture, organization, recall, account access, and cloud continuity as a coherent loop. This page tracks that loop without overstating the caveats that still exist on the web/runtime side.</p>
 </div>
 
 <div class="mnemo-doc-grid">
@@ -32,8 +32,8 @@ Mnemo is built around one idea: personal memory should stay connected to its con
   </div>
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Storage</p>
-    <h3>Local-first handling</h3>
-    <p>Persistence, media storage, export/import, and the new account layer now coexist, but sync is still the missing continuity piece.</p>
+    <h3>Local-first plus cloud continuity</h3>
+    <p>Persistence, media storage, export/import, cloud accounts, and cloud sync now coexist in the current product surface.</p>
   </div>
 </div>
 
@@ -73,24 +73,26 @@ Mnemo is not only a place to save things. It is designed to help you find them a
 
 ## Local-first data handling
 
-Current supported behavior is centered on local persistence.
+Current supported behavior is centered on local persistence with cloud continuity available on top.
 
 - the primary dataset is stored as `data.json`
 - media is stored alongside the dataset
 - ZIP import/export exists for portability and backup
 - cloud accounts are live for identity and authentication flows
-- signing in does not yet imply automatic dataset/media sync
+- cloud sync is available for dataset and media continuity
+- manual and automatic sync paths may both appear depending on platform and current build
+- local storage remains part of the product even when the cloud layer is enabled
 
-Cloud sync is not yet the documented baseline behavior for end users.
+Cloud continuity is now part of the documented product behavior, but web/browser caveats should still be called out explicitly.
 
 ## What is changing next
 
 The next strategic steps are:
 
-1. cloud sync for data and media continuity
-2. stronger support for Flutter Web once sync exists
+1. stronger reliability and observability for sync behavior
+2. tighter browser/runtime hardening for Flutter Web
 3. rollout hardening for account-related app links, universal links, and distribution touchpoints
 
-Until those steps ship, this manual should describe the app as local-first for data continuity, even though cloud account onboarding is already live.
+Until those steps are finished, this manual should describe the app as local-first with cloud continuity available, and the web surface as available with caveats.
 
 <!-- markdownlint-enable MD033 -->

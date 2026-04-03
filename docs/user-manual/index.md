@@ -14,7 +14,7 @@ permalink: /docs/user-manual/
   <div class="mnemo-doc-tags">
     <span class="mnemo-doc-tag">Local-first baseline</span>
     <span class="mnemo-doc-tag">Current app behavior</span>
-    <span class="mnemo-doc-tag">No speculative sync promises</span>
+    <span class="mnemo-doc-tag">Sync available with caveats</span>
   </div>
 </div>
 
@@ -25,7 +25,8 @@ The current app posture is local-first with a live cloud account layer:
 - your journal data still lives on device by default
 - private capture and recall workflows remain the current focus
 - cloud account onboarding and sign-in are available
-- sync and automatic multi-device continuity are not yet the baseline user experience
+- cloud sync is available on top of the local-first baseline
+- the web surface is available with caveats rather than documented as feature-perfect parity
 
 <div class="mnemo-doc-grid">
   <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/user-manual/getting-started/">
@@ -36,7 +37,7 @@ The current app posture is local-first with a live cloud account layer:
   <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/user-manual/core-features/">
     <p class="mnemo-doc-kicker">Feature map</p>
     <strong>Core features</strong>
-    <span>Review capture, organization, recall surfaces, and the local-first data model already available in the product.</span>
+    <span>Review capture, organization, recall surfaces, and the current local-plus-cloud continuity model available in the product.</span>
   </a>
   <a class="mnemo-doc-link" href="{{ site.baseurl }}/docs/user-manual/account-settings/">
     <p class="mnemo-doc-kicker">Control surface</p>

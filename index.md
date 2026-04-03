@@ -30,7 +30,7 @@ has_toc: false
         </div>
         <div class="mnemo-stat-card">
           <strong>Current scope</strong>
-          <span>Local-first app guidance with cloud account status, product posture, and support routing.</span>
+          <span>Local-first guidance with cloud account status, cloud sync availability, web caveats, and support routing.</span>
         </div>
       </div>
       <div class="mnemo-hero__actions">
@@ -42,7 +42,8 @@ has_toc: false
   <div class="mnemo-pill-row">
     <span class="mnemo-pill">Offline-first today</span>
     <span class="mnemo-pill">Cloud account live</span>
-    <span class="mnemo-pill">Sync before full web support</span>
+    <span class="mnemo-pill">Cloud sync available</span>
+    <span class="mnemo-pill">Web with caveats</span>
   </div>
 </section>
 
@@ -76,20 +77,21 @@ This documentation site is the public hub for product guidance, project status, 
 - The Flutter app is currently centered on private, offline-first use.
 - Local capture, organization, reminders, search, map, calendar, media, and export/import workflows already exist.
 - Cloud account creation, verification, sign-in, password reset, delete-account flows, and provider sign-in are live through the Mnemo web/backend platform.
-- Cloud sync and a fully supported Flutter Web experience still come after account integration.
+- Cloud sync for dataset and media continuity is available.
+- Flutter Web is available on top of the same cloud layer, but still carries caveats around browser/runtime behavior.
 
 <div class="mnemo-grid">
   <div class="mnemo-card mnemo-card--third">
     <h3>What is supported now</h3>
-    <p>Private capture, structured recall, local-first usage, and cloud account onboarding/authentication are the current baseline.</p>
+    <p>Private capture, structured recall, local-first usage, cloud account onboarding, and cloud sync are all part of the current product surface.</p>
   </div>
   <div class="mnemo-card mnemo-card--third">
-    <h3>What is coming next</h3>
-    <p>Dataset/media sync and the continuity layer that makes accounts matter across devices.</p>
+    <h3>What is available with caveats</h3>
+    <p>Cross-device continuity and the web surface are available, but they should still be documented with explicit caveats rather than as feature-perfect parity.</p>
   </div>
   <div class="mnemo-card mnemo-card--third">
-    <h3>What depends on sync</h3>
-    <p>Cross-device continuity, cloud media flows, and a product-ready Flutter Web surface.</p>
+    <h3>What is still open</h3>
+    <p>Browser/runtime hardening, rollout edges such as app links, and residual reliability/observability gaps remain open work.</p>
   </div>
 </div>
 
@@ -101,6 +103,6 @@ This documentation site is the public hub for product guidance, project status, 
 
 ## Notes on scope
 
-This site should describe what is actually available, not what is merely scaffolded in code. If a feature is planned but not yet user-ready, document it as planned, not as supported.
+This site should describe what is actually available, not what is merely scaffolded in code. If a feature is live but still caveated, document both parts: availability and caveat.
 
 <!-- markdownlint-enable MD033 -->

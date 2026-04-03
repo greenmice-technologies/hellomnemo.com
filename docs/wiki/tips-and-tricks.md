@@ -61,6 +61,6 @@ Mnemo becomes more valuable when you come back through:
 
 ## Keep expectations aligned
 
-Use Mnemo with a local-first mindset for data continuity. Cloud accounts are now available, but sync and fuller web support should still be treated as upcoming layers rather than assumed defaults.
+Use Mnemo with a local-first mindset for data continuity. Cloud accounts and cloud sync are now available, while fuller web support should still be treated as available with caveats rather than assumed parity in every scenario.
 
 <!-- markdownlint-enable MD033 -->

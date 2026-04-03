@@ -11,10 +11,11 @@ Mnemo is designed to help you build a private, structured memory archive instead
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">First run</p>
-  <p>Use this page to set expectations correctly: Mnemo is already useful as a private, local-first memory system, and cloud accounts are now available without changing the fact that sync is still a later layer.</p>
+  <p>Use this page to set expectations correctly: Mnemo is already useful as a private, local-first memory system, and cloud accounts plus cloud sync are now available without removing the local-first baseline.</p>
   <div class="mnemo-doc-tags">
     <span class="mnemo-doc-tag">Private setup first</span>
     <span class="mnemo-doc-tag">Cloud account available</span>
+    <span class="mnemo-doc-tag">Cloud sync available</span>
     <span class="mnemo-doc-tag">Recall surfaces already live</span>
   </div>
 </div>
@@ -26,7 +27,7 @@ Mnemo is designed to help you build a private, structured memory archive instead
     <ul class="mnemo-check-list">
       <li>Start locally or create/sign in with a cloud account.</li>
       <li>Build a personal archive with entries, media, and structure.</li>
-      <li>Use recall surfaces immediately after capture, without assuming sync yet.</li>
+      <li>Use recall surfaces immediately after capture, with cloud continuity available when configured.</li>
     </ul>
   </div>
   <div class="mnemo-doc-card">
@@ -42,14 +43,14 @@ Mnemo is designed to help you build a private, structured memory archive instead
 
 ## What to expect today
 
-The current product is centered on offline-first use, with cloud account onboarding now live.
+The current product is centered on offline-first use, with cloud account onboarding and cloud sync now live.
 
-- You can start using Mnemo without relying on cloud sync.
-- You can also create or sign in with a cloud account if you want backend-backed identity and account recovery flows.
-- Your dataset is still primarily stored locally until sync ships.
-- Capture and recall workflows are available before cloud continuity is introduced.
+- You can start using Mnemo without relying on the cloud layer.
+- You can also create or sign in with a cloud account if you want backend-backed identity, recovery flows, and cloud continuity.
+- Your dataset still exists locally as part of the local-first design, even when cloud sync is enabled.
+- Capture and recall workflows are available immediately, with continuity available on top rather than as a separate future phase.
 
-Cloud account creation is no longer future work. Sync-backed continuity is the layer that still comes next.
+Cloud account creation and sync-backed continuity are no longer future work. Web/browser caveats and rollout hardening are the parts that still need careful wording.
 
 ## First steps
 
@@ -88,7 +89,7 @@ Mnemo is meant to be read back, not just filled up. Use the available recall sur
 
 ## Cloud account note
 
-Cloud accounts now cover identity and authentication flows such as:
+Cloud accounts now cover identity, authentication, and continuity-related flows such as:
 
 - account creation
 - email verification
@@ -97,7 +98,7 @@ Cloud accounts now cover identity and authentication flows such as:
 - account deletion
 - supported provider sign-in
 
-Those flows do not yet imply automatic dataset/media propagation across devices.
+Depending on the build, cloud continuity may also require a vault unlock step and a manual sync retry from settings before another device reflects recent changes.
 
 ## Next steps
 

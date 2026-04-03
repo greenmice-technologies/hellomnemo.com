@@ -20,15 +20,16 @@ The site is published with GitHub Pages and is intended to live at `https://docs
 
 ## Product framing
 
-Mnemo is documented here as a private, offline-first memory system.
+Mnemo is documented here as a private, offline-first memory system with cloud continuity available.
 
 Current public guidance should reflect the real product state:
 
 - local-first usage is the current default
 - cloud account integration is live
-- cloud sync and full Flutter Web support still come after account integration
+- cloud sync is available
+- Flutter Web is available with caveats rather than documented as feature-perfect parity
 
-Do not publish docs that imply cloud sync, multi-device continuity, or fully supported web app flows until they are actually available.
+Do not publish docs that deny real sync capabilities, but do not overstate browser support or continuity reliability beyond what is actually documented.
 
 ## Local development
 

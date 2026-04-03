@@ -12,7 +12,7 @@ Mnemo is designed around private memory capture first. The settings area should 
 
 <div class="mnemo-doc-intro">
   <p class="mnemo-doc-intro__eyebrow">Control surface</p>
-  <p>This page covers the settings model users can rely on today: protection, preferences, local data controls, and cloud-account management without implying that sync is already the norm.</p>
+  <p>This page covers the settings model users can rely on today: protection, preferences, local data controls, cloud-account management, and the current caveated sync surface.</p>
 </div>
 
 <div class="mnemo-doc-grid">
@@ -29,7 +29,7 @@ Mnemo is designed around private memory capture first. The settings area should 
   <div class="mnemo-doc-card">
     <p class="mnemo-doc-kicker">Data</p>
     <h3>Local data handling</h3>
-    <p>Storage expectations, exports, imports, and what stays on device remain central even now that cloud account access is available.</p>
+    <p>Storage expectations, exports, imports, and what stays on device remain central even now that cloud account access and cloud sync are available.</p>
   </div>
 </div>
 
@@ -76,7 +76,7 @@ Public docs can now cover:
 
 ## Sync note
 
-Account management is live, but sync-related account controls are still limited because dataset/media sync is not yet the baseline product behavior.
+Sync-related account controls are still more limited than the rest of the settings surface. Cloud sync is available, but some builds may still require explicit vault unlock or manual retry flows, and the web surface should still be documented with caveats.
 
 ## Related pages
 
