@@ -1,0 +1,34 @@
+title: "Greenmice Technologies"
+description: "AI, systems engineering, and software delivery for companies working in complex environments."
+
+logo: "images/brands/svg/logo-brand.svg"
+logo_dark: "images/brands/svg/logo-white.svg"
+
+colors:
+  primary: "#1FA463"
+  secondary: "#263238"
+  background: "#F5F7F6"
+
+favicons:
+  themeColor: "#F5F7F6"
+  backgroundColor: "#F5F7F6"
+  faviconColor: "#1FA463"
+
+images:
+  - "greenmice-technologies-og.png"
+
+contact:
+  - "info@hellomnemo.com"
+
+social:
+  linkedin: "https://www.linkedin.com/company/greenmice"
+  github: "https://github.com/greenmice"
+
+address_lines:
+  - "Greenmice Technologies S.r.l."
+  - "Piazzale delle Provincie 8, 00162 Rome, Italy"
+  - "Mobile: +39 328 3615959"
+  - "VAT ID: 14580451004"
+  - "Share capital: EUR 50,000.00 fully paid"
+
+copyright: "© Greenmice Technologies S.r.l."

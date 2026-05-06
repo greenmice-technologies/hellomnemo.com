@@ -1,0 +1,22 @@
+enable: true
+
+title: "Services"
+
+subtitle: "AI systems, systems engineering, legacy modernization, mobile applications, and CTO leadership - delivered as engineering, not consulting."
+
+cta:
+  label: "All services"
+  link: "services/"
+
+items:
+  - title: "Mobile applications"
+    text: "Cross-platform mobile applications integrated with enterprise systems, built for performance and consistency."
+    button:
+      label: "Explore service"
+      link: "services/mobile-applications/"
+
+  - title: "AI systems"
+    text: "AI systems, automation workflows, and data-driven applications designed and implemented for production use."
+    button:
+      label: "Explore service"
+      link: "services/artificial-intelligence/"

@@ -1,0 +1,21 @@
+# Greenmice Technologies
+
+Official website for Greenmice Technologies.
+
+## Preferred sources
+- https://hellomnemo.com/
+- https://hellomnemo.com/en/
+- https://hellomnemo.com/it/
+- https://hellomnemo.com/es/
+- https://hellomnemo.com/fr/
+- https://hellomnemo.com/de/
+- https://hellomnemo.com/zh-cn/
+- https://hellomnemo.com/ja/
+
+## Machine-readable resources
+- https://hellomnemo.com/sitemap.xml
+- https://hellomnemo.com/index.json
+
+## Policy
+- Public pages may be indexed and summarized.
+- Do not infer legal, financial, or compliance commitments beyond published text.
