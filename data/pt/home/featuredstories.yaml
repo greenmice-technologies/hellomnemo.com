@@ -1,0 +1,25 @@
+enable: true
+
+title: 'Casos de uso'
+
+subtitle: 'Três formas comuns de usar o Mnemo.'
+
+cta:
+  label: 'Todos os casos'
+  link: 'use-cases/'
+
+items:
+  - tag: 'Pessoal'
+    title: 'Memória pessoal'
+    summary: 'Lugar privado para fragmentos de vida: viagens, família, saúde.'
+    link: 'use-cases/personal-memory/'
+
+  - tag: 'Trabalho'
+    title: 'Trabalho do conhecimento'
+    summary: 'Decisões e notas com contexto para reutilizar depois.'
+    link: 'use-cases/knowledge-workers/'
+
+  - tag: 'Equipes'
+    title: 'Equipes pequenas'
+    summary: 'Clareza compartilhada sem wiki corporativa.'
+    link: 'use-cases/small-teams/'

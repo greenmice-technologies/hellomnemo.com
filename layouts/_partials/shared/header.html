@@ -6,12 +6,12 @@
     {{ $bridgeEntry = . }}
   {{ end }}
 {{ end }}
-{{ $bridgeColor := "#1FA463" }}
+{{ $bridgeColor := site.Params.colors.primary }}
 {{ with $bridgeEntry }}
   {{ if and .Identifier (in .Identifier "geosolutions") }}
     {{ $bridgeColor = "#1AA6A6" }}
   {{ else if and .Identifier (in .Identifier "technologies") }}
-    {{ $bridgeColor = "#1FA463" }}
+    {{ $bridgeColor = site.Params.colors.primary }}
   {{ end }}
 {{ end }}
 <nav class="sticky top-0 z-50 border-b border-[var(--gm-border-soft)] bg-[var(--gm-hero-overlay-bg)] backdrop-blur-sm">
@@ -187,7 +187,8 @@
       fr: { placeholder: "Rechercher...", loading: "Recherche...", noResults: "Aucun resultat", untitled: "Sans titre" },
       de: { placeholder: "Suchen...", loading: "Suche...", noResults: "Keine Ergebnisse", untitled: "Ohne Titel" },
       "zh-cn": { placeholder: "搜索...", loading: "搜索中...", noResults: "无结果", untitled: "无标题" },
-      ja: { placeholder: "検索...", loading: "検索中...", noResults: "結果はありません", untitled: "無題" }
+      ja: { placeholder: "検索...", loading: "検索中...", noResults: "結果はありません", untitled: "無題" },
+      pt: { placeholder: "Pesquisar...", loading: "A pesquisar...", noResults: "Sem resultados", untitled: "Sem título" }
     };
     const lang = (document.documentElement.lang || "en").toLowerCase();
     const t = dictionary[lang] || dictionary.en;

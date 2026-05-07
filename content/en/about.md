@@ -1,45 +1,32 @@
 ---
 title: "About"
-description: "A senior engineering company focused on building and evolving complex systems with clarity, precision, and long-term ownership."
+description: "HelloMnemo builds Mnemo—a personal Memory OS for capture, context, and recall—with engineering discipline and long-term ownership."
 translationKey: about
 menu:
   main:
     identifier: about
-    weight: 20
+    weight: 55
   footer:
     identifier: about
-    weight: 20
+    weight: 55
 ---
 
-Greenmice Technologies is an engineering company—not a marketing shop. For roughly ten years we have helped enterprises and product organizations ship systems where architecture, reliability, and delivery discipline matter.
+HelloMnemo is the company behind **Mnemo**.
 
-We are headquartered in Italy and work with clients across regulated industries and large-scale operators. Our bias is toward **system thinking**: explicit boundaries, measurable quality bars, and software that can evolve without turning into a rewrite project.
+We are an engineering-led team based in Italy. We build products where **architecture, privacy defaults, and reliability** matter—not slide decks.
 
-### What we optimize for
+### Why Mnemo exists
 
-- **Complexity management**: turning ambiguous requirements into stable designs.
-- **Reliability**: operability, observability, and maintainability as first-class outcomes.
-- **Craft**: Italian design culture shows up as precision in communication, interfaces, and engineering detail—not decoration.
+Most “notes” tools optimize for quick capture but underinvest in **long-horizon recall**: finding the right fragment months later, with context intact, across media types and life domains.
 
-### How we work
+Mnemo is our answer: a **Memory OS** that is offline-first, respectful of ownership, and designed to grow with you for years.
 
-Small senior teams, direct access to engineers, and an aversion to unnecessary process. We integrate with your stakeholders, align incentives with outcomes, and document decisions where they matter.
+### How we build
 
+- **System thinking**: explicit boundaries between local data, optional cloud sync, and public surfaces.
+- **Craft**: precision in product behavior, performance, and the details people feel every day.
+- **Documentation**: we treat user guidance as part of the product, not an afterthought.
 
-Our approach is built for environments where “move fast and break things” is not an option. We combine strong architecture with incremental delivery so teams see progress without gambling production stability.
+### Contact
 
-### Discovery that respects reality
-
-We start from constraints: regulation, uptime, data residency, vendor ecosystems, and team skills. The goal is a shared map of risks—not a slide deck of promises.
-
-### Architecture before churn
-
-We define integration points, contracts, and failure modes early. The output is an architecture that can be built in slices: strangler patterns, bounded contexts, and explicit interfaces.
-
-### Delivery in slices
-
-We ship vertical increments with measurable value: automation that removes toil, services that reduce coupling, and instrumentation that makes incidents diagnosable.
-
-### Handover that lasts
-
-Documentation, runbooks, and training are part of delivery—not a post-launch afterthought.
+For product questions, partnerships, and support, use the details on the [Contact](contact/) page.

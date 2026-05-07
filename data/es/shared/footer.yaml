@@ -1,0 +1,22 @@
+enable: true
+
+contact:
+  title: "Contacto"
+  items:
+    - label: "info@hellomnemo.com"
+      link: "mailto:info@hellomnemo.com"
+
+address_lines:
+  - "HelloMnemo S.r.l."
+  - "Piazzale delle Provincie 8, 00162 Roma, Italia"
+  - "Móvil: +39 328 3615959"
+  - "IVA: 14580451004"
+  - "Capital social: EUR 50.000,00 totalmente desembolsado"
+
+social:
+  - title: "LinkedIn"
+    icon: "linkedin"
+    link: "https://www.linkedin.com/company/hellomnemo"
+    label: ""
+
+copyright: "© HelloMnemo S.r.l. Todos los derechos reservados."

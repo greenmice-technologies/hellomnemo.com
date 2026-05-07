@@ -1,0 +1,30 @@
+enable: true
+
+title: "記憶のための設計。ノイズのためではない"
+
+text: "Mnemo はシンプルなループです：素早く記録し、構造を保ち、意図を持って再発見する。モバイルはオフライン優先。クラウドは任意でプライバシー配慮。"
+
+items:
+  - pretitle: "記録"
+    pretext: "瞬間とメディア"
+    color: "#2BA7A1"
+    icon: "pen-line"
+    image: "images/blowfish/heroes/fireflies.svg"
+    title: "豊かで読みやすいエントリ"
+    text: "落ち着いたエディタで書き、写真・動画・音声・文書を添付し、日付と文脈に結びつけます。"
+
+  - pretitle: "構造"
+    pretext: "フォルダとテンプレート"
+    color: "#6E52B5"
+    icon: "layers-3"
+    image: "images/blowfish/heroes/ripples.svg"
+    title: "大切なものに場所を"
+    text: "思考の仕方に合うフォルダと習慣。硬いデータベースではありません。"
+
+  - pretitle: "再発見"
+    pretext: "検索と時間"
+    color: "#2BA7A1"
+    icon: "calendar"
+    image: "images/blowfish/heroes/waves.svg"
+    title: "適切な断片を適切なタイミングで"
+    text: "アーカイブを検索し、カレンダーと地図で眺め、リマインダーで大事に戻ります。"

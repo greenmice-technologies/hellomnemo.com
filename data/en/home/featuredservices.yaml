@@ -1,22 +1,28 @@
 enable: true
 
-title: "Services"
+title: "What you can do"
 
-subtitle: "AI systems, systems engineering, legacy modernization, mobile applications, and CTO leadership - delivered as engineering, not consulting."
+subtitle: "Start with daily notes, grow into a personal archive, and add encrypted sync when you are ready."
 
 cta:
-  label: "All services"
-  link: "services/"
+  label: "Product overview"
+  link: "product/"
 
 items:
-  - title: "Mobile applications"
-    text: "Cross-platform mobile applications integrated with enterprise systems, built for performance and consistency."
+  - title: "Daily capture"
+    text: "A fast path from thought to saved entry—so logging a moment never becomes a project."
     button:
-      label: "Explore service"
-      link: "services/mobile-applications/"
+      label: "Core workflows"
+      link: "docs/core-workflows/capture/"
 
-  - title: "AI systems"
-    text: "AI systems, automation workflows, and data-driven applications designed and implemented for production use."
+  - title: "Offline-first archive"
+    text: "Your dataset stays local on device. Travel, spotty networks, and focus time are not obstacles."
     button:
-      label: "Explore service"
-      link: "services/artificial-intelligence/"
+      label: "Getting started"
+      link: "docs/getting-started/"
+
+  - title: "Private cloud sync"
+    text: "Optional account-backed sync for encrypted dataset and media continuity across devices."
+    button:
+      label: "Sync & cloud"
+      link: "docs/sync-and-cloud/"

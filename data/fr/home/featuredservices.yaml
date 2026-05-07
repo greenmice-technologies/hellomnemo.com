@@ -1,0 +1,28 @@
+enable: true
+
+title: "Ce que vous pouvez faire"
+
+subtitle: "Commencez par des notes quotidiennes, développez une archive personnelle et ajoutez une synchro chiffrée quand vous êtes prêt."
+
+cta:
+  label: "Aperçu du produit"
+  link: "product/"
+
+items:
+  - title: "Capture quotidienne"
+    text: "De la pensée à l’entrée enregistrée rapidement—pour que noter un moment ne devienne jamais un projet."
+    button:
+      label: "Flux principaux"
+      link: "docs/core-workflows/capture/"
+
+  - title: "Archive offline-first"
+    text: "Votre jeu de données reste local sur l’appareil. Voyages, réseau irrégulier et temps de concentration ne sont pas des obstacles."
+    button:
+      label: "Premiers pas"
+      link: "docs/getting-started/"
+
+  - title: "Synchro cloud privée"
+    text: "Synchro optionnelle avec compte pour une continuité chiffrée des données et médias entre appareils."
+    button:
+      label: "Synchro et cloud"
+      link: "docs/sync-and-cloud/"

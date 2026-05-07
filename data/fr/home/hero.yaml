@@ -1,0 +1,30 @@
+enable: true
+
+title: 'Votre vie,<br/>souvenue.'
+
+text: 'Mnemo est un système de mémoire personnel : capturez des fragments avec du contexte, gardez tout organisé offline-first et retrouvez ce qui compte dans le temps, le lieu et les médias.'
+
+buttons:
+  - label: 'Comment ça marche'
+    link: '#features'
+  - label: 'Documentation'
+    link: 'docs/'
+
+image: 'images/home/hero/hero.svg'
+
+items:
+  - icon: 'sparkles'
+    title: 'Capture avec contexte'
+    text: 'Notes, médias et rappels restent liés au moment auquel ils appartiennent.'
+
+  - icon: 'folder'
+    title: 'Organiser sans friction'
+    text: 'Dossiers et structure qui passent d’un simple journal à une riche archive.'
+
+  - icon: 'search'
+    title: 'Retrouver quand ça aide'
+    text: 'Recherche et surfaces pensées pour redécouvrir—pas pour le défilement infini.'
+
+  - icon: 'cloud'
+    title: 'Synchro chiffrée optionnelle'
+    text: 'Une copie cloud privée quand vous voulez sauvegarde et continuité entre appareils.'

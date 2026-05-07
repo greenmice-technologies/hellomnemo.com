@@ -1,22 +1,28 @@
 enable: true
 
-title: "Servizi"
+title: "Cosa puoi fare"
 
-subtitle: "Sistemi AI, ingegneria dei sistemi, modernizzazione legacy, applicazioni mobile e leadership CTO - erogati come ingegneria, non come consulenza."
+subtitle: "Inizia con note quotidiane, cresci verso un archivio personale e aggiungi il sync cifrato quando sei pronto."
 
 cta:
-  label: "Tutti i servizi"
-  link: "services/"
+  label: "Panoramica prodotto"
+  link: "product/"
 
 items:
-  - title: "Applicazioni mobile"
-    text: "Applicazioni mobile multipiattaforma integrate con sistemi enterprise, progettate per prestazioni e coerenza."
+  - title: "Cattura quotidiana"
+    text: "Dalla pensiero alla voce salvata in fretta—così annotare un momento non diventa un progetto."
     button:
-      label: "Esplora il servizio"
-      link: "services/mobile-applications/"
+      label: "Flussi principali"
+      link: "docs/core-workflows/capture/"
 
-  - title: "Sistemi AI"
-    text: "Sistemi AI, workflow di automazione e applicazioni data-driven progettati e realizzati per l'uso in produzione."
+  - title: "Archivio offline-first"
+    text: "Il dataset resta locale sul dispositivo. Viaggi, rete instabile e tempo di concentrazione non sono ostacoli."
     button:
-      label: "Esplora il servizio"
-      link: "services/artificial-intelligence/"
+      label: "Per iniziare"
+      link: "docs/getting-started/"
+
+  - title: "Sync cloud privato"
+    text: "Sync opzionale con account per continuità cifrata di dataset e media tra dispositivi."
+    button:
+      label: "Sync e cloud"
+      link: "docs/sync-and-cloud/"

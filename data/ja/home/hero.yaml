@@ -1,0 +1,30 @@
+enable: true
+
+title: 'あなたの人生を、<br/>ちゃんと残す。'
+
+text: 'Mnemo はパーソナル・メモリOSです。文脈を持って断片を記録し、オフライン優先で整え、時間・場所・メディアを横断して必要なときに取り戻します。'
+
+buttons:
+  - label: '仕組み'
+    link: '#features'
+  - label: 'ドキュメント'
+    link: 'docs/'
+
+image: 'images/home/hero/hero.svg'
+
+items:
+  - icon: 'sparkles'
+    title: '文脈付きで記録'
+    text: 'ノート、メディア、リマインダーをその瞬間に紐づけます。'
+
+  - icon: 'folder'
+    title: '摩擦の少ない整理'
+    text: '一冊の日記から豊かなアーカイブまで伸びる構造。'
+
+  - icon: 'search'
+    title: '必要なときに再発見'
+    text: '無限スクロールではなく、探し直すための画面。'
+
+  - icon: 'cloud'
+    title: '任意の暗号化同期'
+    text: 'バックアップと端末間の継続性が欲しいときのプライベートなクラウドコピー。'

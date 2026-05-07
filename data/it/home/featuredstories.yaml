@@ -1,20 +1,25 @@
 enable: true
 
-title: 'Storie'
+title: 'Casi d’uso'
 
-subtitle: 'Progetti selezionati tra AI, sistemi enterprise, applicazioni mobile e modernizzazione.'
+subtitle: 'Mnemo si adatta a molti ritmi. Ecco tre modi comuni di usarlo.'
 
 cta:
-  label: 'Tutte le storie'
-  link: 'stories/'
+  label: 'Tutti i casi d’uso'
+  link: 'use-cases/'
 
 items:
-  - tag: 'Retail lusso'
-    title: 'Automazione AI per l''e-commerce'
-    summary: 'Automazione AI per la generazione di contenuti e-commerce su larga scala nel settore del lusso.'
-    link: 'stories/ecommerce-ai-automation/'
+  - tag: 'Personale'
+    title: 'Memoria personale'
+    summary: 'Un luogo privato per frammenti di vita: viaggi, traguardi familiari, note sulla salute e riflessione a lungo termine.'
+    link: 'use-cases/personal-memory/'
 
-  - tag: 'Mobile'
-    title: 'Product engineering mobile'
-    summary: 'Product engineering e delivery di applicazioni mobile integrate con backend complessi.'
-    link: 'stories/mobile-product-engineering/'
+  - tag: 'Lavoro'
+    title: 'Knowledge work'
+    summary: 'Decisioni, verbali e riferimenti con contesto per riutilizzarli mesi dopo.'
+    link: 'use-cases/knowledge-workers/'
+
+  - tag: 'Team'
+    title: 'Piccoli team'
+    summary: 'Chiarezza condivisa senza trasformare la memoria in wiki aziendale—struttura leggera ed export quando serve.'
+    link: 'use-cases/small-teams/'

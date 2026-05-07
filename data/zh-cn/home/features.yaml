@@ -1,0 +1,30 @@
+enable: true
+
+title: "为记忆而建，不为噪音"
+
+text: "Mnemo围绕简单循环：快速记录、保留结构、带着意图找回。移动应用离线优先；云能力可选且注重隐私。"
+
+items:
+  - pretitle: "记录"
+    pretext: "瞬间与媒体"
+    color: "#2BA7A1"
+    icon: "pen-line"
+    image: "images/blowfish/heroes/fireflies.svg"
+    title: "丰富但仍可读的条目"
+    text: "在克制的编辑器中书写，附加照片、视频、音频与文档，并与日期和情境绑定。"
+
+  - pretitle: "结构"
+    pretext: "文件夹与模板"
+    color: "#6E52B5"
+    icon: "layers-3"
+    image: "images/blowfish/heroes/ripples.svg"
+    title: "你在乎的一切都有位置"
+    text: "用文件夹、模板与习惯匹配真实思维方式——而非僵硬数据库。"
+
+  - pretitle: "找回"
+    pretext: "搜索与时间"
+    color: "#2BA7A1"
+    icon: "calendar"
+    image: "images/blowfish/heroes/waves.svg"
+    title: "在对的时间找回对的片段"
+    text: "搜索档案，按日历与地图浏览，用提醒回到重要事项。"

@@ -7,7 +7,7 @@ contact:
       link: "mailto:info@hellomnemo.com"
 
 address_lines:
-  - "Greenmice Technologies S.r.l."
+  - "HelloMnemo S.r.l."
   - "Piazzale delle Provincie 8, 00162 Rome, Italy"
   - "Mobile: +39 328 3615959"
   - "VAT ID: 14580451004"
@@ -16,7 +16,7 @@ address_lines:
 social:
   - title: "LinkedIn"
     icon: "linkedin"
-    link: "https://www.linkedin.com/company/greenmice"
+    link: "https://www.linkedin.com/company/hellomnemo"
     label: ""
 
-copyright: "© Greenmice Technologies S.r.l. All rights reserved."
+copyright: "© HelloMnemo S.r.l. All rights reserved."

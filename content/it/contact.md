@@ -1,6 +1,6 @@
 ---
 title: "Contatti"
-description: "Avvia una conversazione su architettura, evoluzione dei sistemi o coinvolgimento a livello CTO."
+description: "Contatta HelloMnemo per supporto su Mnemo, partnership e domande sul prodotto."
 translationKey: contact
 menu:
   main:
@@ -13,27 +13,29 @@ menu:
 
 ### Recapiti
 
-- Azienda: **Greenmice Technologies S.r.l.**
+- Azienda: **HelloMnemo S.r.l.**
 - Email: [info@hellomnemo.com](mailto:info@hellomnemo.com)
 - Cellulare: [+39 328 3615959](tel:+393283615959)
 - Indirizzo: Piazzale delle Provincie 8, 00162 Roma, Italia
 - P. IVA: 14580451004
 - Capitale sociale: EUR 50.000,00 interamente versato
 
-Raccontaci cosa stai costruendo, quali vincoli stai affrontando e con quali tempi stai lavorando. Rispondiamo con una conversazione tecnica diretta, non con una sequenza commerciale generica.
+### Cosa inviare per il supporto
 
-### Cosa includere
+- piattaforma (iOS / Android / altro) e **versione dell’app**
+- se il problema riguarda **sync**, **media**, **import/export** o **accesso**
+- cosa ti aspettavi rispetto a cosa è successo, e passi per riprodurre se possibile
 
-- Dominio del problema e sistemi attuali, al livello che puoi condividere
-- Criteri di successo e rischi che hai già identificato
-- Se ti serve delivery, leadership tecnica (CTO as a Service) o entrambe
+### Prodotto e partnership
+
+Raccontaci cosa stai costruendo e come dovrebbe inserirsi Mnemo. Leggiamo ogni messaggio direttamente.
 
 ### Mappa ufficio
 
 <div class="gm-office-map" style="border:1px solid #d9e2ea;border-radius:12px;overflow:hidden;max-width:100%;">
   <iframe
-    title="Mappa ufficio Greenmice Technologies"
-    src="https://maps.google.com/maps?q=Piazzale%20delle%20Provincie%208%2C%20Roma%2C%20Italia&t=&z=16&ie=UTF8&iwloc=&output=embed"
+    title="Mappa ufficio HelloMnemo"
+    src="https://maps.google.com/maps?q=Piazzale%20delle%20Provincie%208%2C%20Rome%2C%20Italy&t=&z=16&ie=UTF8&iwloc=&output=embed"
     width="100%"
     height="360"
     style="border:0;"

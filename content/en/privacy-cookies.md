@@ -1,6 +1,6 @@
 ---
 title: "Privacy & Cookies"
-description: "Privacy notice and cookie information for Greenmice Technologies website visitors."
+description: "Privacy notice and cookie information for HelloMnemo website visitors."
 translationKey: privacy-cookies
 menu:
   footer:
@@ -10,7 +10,7 @@ menu:
 
 ## Privacy notice
 
-This page explains how **Greenmice Technologies S.r.l.** handles personal data for visitors of this website.
+This page explains how **HelloMnemo S.r.l.** handles personal data for visitors of this website.
 
 If you contact us by email or contact forms, we process the data you provide (for example name, company, email, and message) only to respond to your request and manage the relationship.
 
@@ -35,5 +35,5 @@ Depending on applicable law (including GDPR), you may request access, correction
 For privacy-related requests:
 
 - Email: [info@hellomnemo.com](mailto:info@hellomnemo.com)
-- Company: **Greenmice Technologies S.r.l.**
+- Company: **HelloMnemo S.r.l.**
 - Address: Piazzale delle Provincie 8, 00162 Rome, Italy

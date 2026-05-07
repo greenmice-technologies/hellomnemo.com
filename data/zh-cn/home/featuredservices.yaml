@@ -1,0 +1,28 @@
+enable: true
+
+title: "你能做什么"
+
+subtitle: "从日常笔记开始，成长为个人档案，并在准备好时加入加密同步。"
+
+cta:
+  label: "产品概览"
+  link: "product/"
+
+items:
+  - title: "日常记录"
+    text: "从念头到保存条目更快——让记录时刻不会变成项目。"
+    button:
+      label: "核心工作流"
+      link: "docs/core-workflows/capture/"
+
+  - title: "离线优先档案"
+    text: "数据集保留在设备本地；旅途、弱网与专注时间都不成阻碍。"
+    button:
+      label: "入门指南"
+      link: "docs/getting-started/"
+
+  - title: "私密云同步"
+    text: "可选账户同步，跨设备加密延续数据集与媒体。"
+    button:
+      label: "同步与云"
+      link: "docs/sync-and-cloud/"

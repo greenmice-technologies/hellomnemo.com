@@ -33,7 +33,7 @@
     {{ partial "schema.html" . }}
     {{ partial "twitter_cards.html" . }}
 
-    {{ with resources.Get "favicon.svg" }}
+    {{ with resources.Get "favicon.png" }}
       <link rel="icon" type="image/x-icon" href="{{ .Permalink }}">
     {{ end }}
 

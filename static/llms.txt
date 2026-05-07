@@ -1,6 +1,6 @@
-# Greenmice Technologies
+# HelloMnemo
 
-Official website for Greenmice Technologies.
+Official website for HelloMnemo.
 
 ## Preferred sources
 - https://hellomnemo.com/

@@ -1,5 +1,5 @@
 baseURL: "https://hellomnemo.com/"
-title: "Greenmice Technologies"
+title: "HelloMnemo"
 summaryLength: 35
 
 markup:
@@ -24,53 +24,53 @@ languages:
     weight: 1
     contentDir: content/en
     params:
-      description: "AI, system engineering, and software delivery for companies operating in complex environments."
+      description: "Mnemo is a personal Memory OS—offline-first capture, optional encrypted sync, and recall across time, place, and media. Built by HelloMnemo."
   it:
     languageName: Italiano
     languageCode: it
     weight: 2
     contentDir: content/it
     params:
-      description: "Partner ingegneristico per sistemi complessi, piattaforme AI e modernizzazione legacy. CTO as a Service."
+      description: "Mnemo è un Memory OS personale—cattura offline-first, sync cifrato opzionale e richiamo nel tempo, nel luogo e nei media. HelloMnemo."
   es:
     languageName: Español
     languageCode: es
     weight: 3
     contentDir: content/es
     params:
-      description: "Socio de ingeniería para sistemas complejos, plataformas de IA y modernización de legados. CTO as a Service."
+      description: "Mnemo es un sistema de memoria personal: captura offline-first, sincronización cifrada opcional y recuperación en el tiempo, el lugar y los medios. HelloMnemo."
   fr:
     languageName: Français
     languageCode: fr
     weight: 4
     contentDir: content/fr
     params:
-      description: "Partenaire d’ingénierie pour systèmes complexes, plateformes IA et modernisation du legacy. CTO as a Service."
+      description: "Mnemo est un système de mémoire personnel : capture offline-first, synchronisation chiffrée optionnelle et retrouvabilité dans le temps, le lieu et les médias. HelloMnemo."
   de:
     languageName: Deutsch
     languageCode: de
     weight: 5
     contentDir: content/de
     params:
-      description: "Engineering-Partner für komplexe Systeme, KI-Plattformen und Legacy-Modernisierung. CTO as a Service."
+      description: "Mnemo ist ein persönliches Memory-OS: Offline-First-Erfassung, optionale verschlüsselte Synchronisation und Wiederfinden über Zeit, Ort und Medien. HelloMnemo."
   zh-cn:
     languageName: 简体中文
     languageCode: zh-cn
     weight: 6
     contentDir: content/zh-cn
     params:
-      description: "面向复杂系统、AI 平台与遗留系统现代化的高端工程合作伙伴。CTO as a Service。"
+      description: "Mnemo 是个人记忆操作系统：离线优先记录、可选加密同步，并在时间、地点与媒介中再次找回。HelloMnemo。"
   ja:
     languageName: 日本語
     languageCode: ja
     weight: 7
     contentDir: content/ja
     params:
-      description: "複雑なシステム、AIプラットフォーム、レガシー近代化のエンジニアリングパートナー。CTO as a Service。"
+      description: "Mnemo はパーソナル・メモリOS。オフライン優先の記録、任意の暗号化同期、時間・場所・メディアを横断した再発見。HelloMnemo。"
   pt:
     languageName: Português
     languageCode: pt
     weight: 8
     contentDir: content/pt
     params:
-      description: ""
+      description: "O Mnemo é um sistema de memória pessoal: captura offline-first, sincronização criptografada opcional e recuperação no tempo, no lugar e nas mídias. HelloMnemo."

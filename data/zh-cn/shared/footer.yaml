@@ -1,0 +1,22 @@
+enable: true
+
+contact:
+  title: "联系"
+  items:
+    - label: "info@hellomnemo.com"
+      link: "mailto:info@hellomnemo.com"
+
+address_lines:
+  - "HelloMnemo S.r.l."
+  - "Piazzale delle Provincie 8, 00162 Roma, Italia"
+  - "手机：+39 328 3615959"
+  - "增值税号：14580451004"
+  - "注册资本：EUR 50,000.00（已缴足）"
+
+social:
+  - title: "LinkedIn"
+    icon: "linkedin"
+    link: "https://www.linkedin.com/company/hellomnemo"
+    label: ""
+
+copyright: "© HelloMnemo S.r.l. 保留所有权利。"

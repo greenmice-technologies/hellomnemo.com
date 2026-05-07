@@ -1,34 +1,30 @@
 enable: true
 
-title: 'Complexity<br/>made simple.'
+title: 'Your life,<br/>remembered.'
 
-text: 'AI, systems engineering, and software delivery for companies working in complex environments.'
+text: 'Mnemo is a personal Memory OS: capture fragments with context, keep them organized offline-first, and resurface what matters across time, place, and media.'
 
 buttons:
-  - label: 'Learn more'
+  - label: 'How it works'
     link: '#features'
-  - label: 'Contact'
-    link: 'contact/'
+  - label: 'Documentation'
+    link: 'docs/'
 
 image: 'images/home/hero/hero.svg'
 
 items:
-  - icon: 'git-branch'
-    color: '#1FA463'
-    title: 'System thinking'
-    text: 'End-to-end design, from constraints to production.'
+  - icon: 'sparkles'
+    title: 'Capture with context'
+    text: 'Notes, media, and reminders stay linked to the moment they belong to.'
 
-  - icon: 'shield'
-    color: '#1FA463'
-    title: 'Operational rigor'
-    text: 'Security, observability, and maintainability by default.'
+  - icon: 'folder'
+    title: 'Organize without friction'
+    text: 'Folders and structure that scale from a single journal to a rich archive.'
 
-  - icon: 'layers-3'
-    color: '#1FA463'
-    title: 'Complexity under control'
-    text: 'Clear boundaries, explicit interfaces, measurable outcomes.'
+  - icon: 'search'
+    title: 'Recall when it helps'
+    text: 'Search and surfaces designed for rediscovery—not endless scrolling.'
 
-  - icon: 'compass'
-    color: '#1FA463'
-    title: 'Italian design discipline'
-    text: 'Attention to detail and precision in execution, applied to complex systems.'
+  - icon: 'cloud'
+    title: 'Optional encrypted sync'
+    text: 'Keep a private cloud copy when you want backup and continuity across devices.'

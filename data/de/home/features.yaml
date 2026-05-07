@@ -1,0 +1,30 @@
+enable: true
+
+title: "Für Erinnerung gebaut, nicht für Lärm"
+
+text: "Mnemo folgt einer einfachen Schleife: schnell erfassen, Struktur bewahren, mit Absicht wiederholen. Die App ist offline-first; Cloud ist optional und datenschutzbewusst."
+
+items:
+  - pretitle: "Erfassen"
+    pretext: "Momente & Medien"
+    color: "#2BA7A1"
+    icon: "pen-line"
+    image: "images/blowfish/heroes/fireflies.svg"
+    title: "Reiche Einträge, die lesbar bleiben"
+    text: "Ruhig schreiben, Fotos, Video, Audio und Dokumente anhängen, alles mit Daten und Kontext verknüpfen."
+
+  - pretitle: "Struktur"
+    pretext: "Ordner & Vorlagen"
+    color: "#6E52B5"
+    icon: "layers-3"
+    image: "images/blowfish/heroes/ripples.svg"
+    title: "Platz für das, was Ihnen wichtig ist"
+    text: "Organisieren mit Ordnern, Vorlagen und Gewohnheiten — nicht mit einer starren Datenbank."
+
+  - pretitle: "Wiederholen"
+    pretext: "Suche & Zeit"
+    color: "#2BA7A1"
+    icon: "calendar"
+    image: "images/blowfish/heroes/waves.svg"
+    title: "Das richtige Fragment zur richtigen Zeit"
+    text: "Im Archiv suchen, Kalender und Karte nutzen, Erinnerungen für Wichtiges."

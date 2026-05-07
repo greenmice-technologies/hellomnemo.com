@@ -1,0 +1,28 @@
+enable: true
+
+title: "Was Sie tun können"
+
+subtitle: "Starten Sie mit Alltagsnotizen, wachsen Sie zu einem persönlichen Archiv und fügen Sie verschlüsselte Sync hinzu, wenn Sie bereit sind."
+
+cta:
+  label: "Produktüberblick"
+  link: "product/"
+
+items:
+  - title: "Tägliches Erfassen"
+    text: "Vom Gedanken zum gespeicherten Eintrag — ohne dass ein Moment zum Projekt wird."
+    button:
+      label: "Kern-Workflows"
+      link: "docs/core-workflows/capture/"
+
+  - title: "Offline-first-Archiv"
+    text: "Ihr Dataset bleibt lokal. Reisen und schlechtes Netz sind kein Hindernis."
+    button:
+      label: "Erste Schritte"
+      link: "docs/getting-started/"
+
+  - title: "Private Cloud-Sync"
+    text: "Optionale Konten-Sync für verschlüsselte Kontinuität von Daten und Medien."
+    button:
+      label: "Sync & Cloud"
+      link: "docs/sync-and-cloud/"

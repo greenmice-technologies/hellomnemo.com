@@ -1,0 +1,25 @@
+enable: true
+
+title: '使用场景'
+
+subtitle: 'Mnemo适合多种节奏。以下是三种常见用法。'
+
+cta:
+  label: '全部场景'
+  link: 'use-cases/'
+
+items:
+  - tag: '个人'
+    title: '个人记忆'
+    summary: '私密空间保存生活片段：旅行、家庭里程碑、健康笔记与长期反思。'
+    link: 'use-cases/personal-memory/'
+
+  - tag: '工作'
+    title: '知识工作'
+    summary: '决策、会议记录与参考资料，带着可在数月后复用的情境。'
+    link: 'use-cases/knowledge-workers/'
+
+  - tag: '团队'
+    title: '小团队'
+    summary: '共享清晰而不把记忆变成企业维基——轻结构，需要时导出。'
+    link: 'use-cases/small-teams/'

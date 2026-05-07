@@ -1,0 +1,25 @@
+enable: true
+
+title: 'ユースケース'
+
+subtitle: 'Mnemo はいろいろなリズムに合います。よくある三つの使い方。'
+
+cta:
+  label: 'ユースケース一覧'
+  link: 'use-cases/'
+
+items:
+  - tag: '個人'
+    title: '個人の記憶'
+    summary: '旅行、家族、健康メモ、長期的な振り返り。'
+    link: 'use-cases/personal-memory/'
+
+  - tag: '仕事'
+    title: 'ナレッジワーク'
+    summary: '決定・会議メモ・参照資料を文脈ごと後で再利用。'
+    link: 'use-cases/knowledge-workers/'
+
+  - tag: 'チーム'
+    title: '小さなチーム'
+    summary: '企業wikiにしない軽い共有の明瞭さ。必要ならエクスポート。'
+    link: 'use-cases/small-teams/'

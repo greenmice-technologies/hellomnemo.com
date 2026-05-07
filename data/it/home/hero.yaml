@@ -1,34 +1,30 @@
 enable: true
 
-title: 'La complessità<br/>resa semplice.'
+title: 'La tua vita,<br/>ricordata.'
 
-text: 'AI, ingegneria dei sistemi e delivery software per aziende che operano in contesti complessi.'
+text: 'Mnemo è un Memory OS personale: cattura frammenti con contesto, tieni tutto organizzato offline-first e ritrova ciò che conta nel tempo, nel luogo e nei media.'
 
 buttons:
-  - label: 'Scopri di più'
+  - label: 'Come funziona'
     link: '#features'
-  - label: 'Contatti'
-    link: 'contact/'
+  - label: 'Documentazione'
+    link: 'docs/'
 
 image: 'images/home/hero/hero.svg'
 
 items:
-  - icon: 'git-branch'
-    color: '#1FA463'
-    title: 'Pensiero sistemico'
-    text: 'Progettazione end-to-end, dai vincoli alla produzione.'
+  - icon: 'sparkles'
+    title: 'Cattura con contesto'
+    text: 'Note, media e promemoria restano legati al momento a cui appartengono.'
 
-  - icon: 'shield'
-    color: '#1FA463'
-    title: 'Rigore operativo'
-    text: 'Sicurezza, osservabilità e manutenibilità integrate fin dall''inizio.'
+  - icon: 'folder'
+    title: 'Organizza senza attrito'
+    text: 'Cartelle e struttura che crescono da un singolo diario a un archivio ricco.'
 
-  - icon: 'layers-3'
-    color: '#1FA463'
-    title: 'Complessità sotto controllo'
-    text: 'Confini chiari, interfacce esplicite, risultati misurabili.'
+  - icon: 'search'
+    title: 'Richiama quando serve'
+    text: 'Ricerca e superfici pensate per riscoprire—non per lo scroll infinito.'
 
-  - icon: 'compass'
-    color: '#1FA463'
-    title: 'Disciplina progettuale italiana'
-    text: 'Attenzione al dettaglio e precisione esecutiva applicate a sistemi complessi.'
+  - icon: 'cloud'
+    title: 'Sync cifrato opzionale'
+    text: 'Una copia cloud privata quando vuoi backup e continuità tra dispositivi.'

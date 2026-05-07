@@ -43,7 +43,7 @@
       const pageKey = hero.dataset.pageKey || "single-hero";
       const stableBackground = pickStablePattern(backgrounds, `single-hero-${pageKey}`);
       if (!stableBackground) return;
-      const primary = hero.dataset.brandPrimary || "#1FA463";
+      const primary = hero.dataset.brandPrimary || "#2BA7A1";
       const secondary = hero.dataset.brandSecondary || "#263238";
       const heroThemeBg = getComputedStyle(document.documentElement).getPropertyValue("--gm-hero-bg").trim();
       const background = heroThemeBg || hero.dataset.brandBackground || "#F5F7F6";

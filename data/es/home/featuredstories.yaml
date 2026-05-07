@@ -1,0 +1,25 @@
+enable: true
+
+title: 'Casos de uso'
+
+subtitle: 'Mnemo encaja en muchos ritmos. Aquí hay tres formas habituales de usarlo.'
+
+cta:
+  label: 'Todos los casos de uso'
+  link: 'use-cases/'
+
+items:
+  - tag: 'Personal'
+    title: 'Memoria personal'
+    summary: 'Un lugar privado para fragmentos de vida: viajes, hitos familiares, notas de salud y reflexión a largo plazo.'
+    link: 'use-cases/personal-memory/'
+
+  - tag: 'Trabajo'
+    title: 'Trabajo del conocimiento'
+    summary: 'Decisiones, notas de reunión y referencias con contexto para reutilizarlas meses después.'
+    link: 'use-cases/knowledge-workers/'
+
+  - tag: 'Equipos'
+    title: 'Equipos pequeños'
+    summary: 'Claridad compartida sin convertir tu memoria en wiki corporativa—estructura ligera y exportación cuando haga falta.'
+    link: 'use-cases/small-teams/'

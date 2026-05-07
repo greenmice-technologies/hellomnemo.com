@@ -1,20 +1,25 @@
 enable: true
 
-title: 'Stories'
+title: 'Use cases'
 
-subtitle: 'Selected projects across AI, enterprise systems, mobile applications, and modernization.'
+subtitle: 'Mnemo fits many rhythms. Here are three common ways people use it.'
 
 cta:
-  label: 'All stories'
-  link: 'stories/'
+  label: 'All use cases'
+  link: 'use-cases/'
 
 items:
-  - tag: 'Luxury retail'
-    title: 'AI automation for e-commerce'
-    summary: 'AI automation for large-scale e-commerce content generation in the luxury sector.'
-    link: 'stories/ecommerce-ai-automation/'
+  - tag: 'Personal'
+    title: 'Personal memory'
+    summary: 'A private place for life fragments: travel, family milestones, health notes, and long-horizon reflection.'
+    link: 'use-cases/personal-memory/'
 
-  - tag: 'Mobile'
-    title: 'Mobile product engineering'
-    summary: 'Product engineering and delivery for mobile applications integrated with complex backend systems.'
-    link: 'stories/mobile-product-engineering/'
+  - tag: 'Work'
+    title: 'Knowledge work'
+    summary: 'Capture decisions, meeting notes, and references with enough context to reuse them months later.'
+    link: 'use-cases/knowledge-workers/'
+
+  - tag: 'Teams'
+    title: 'Small teams'
+    summary: 'Shared clarity without turning your memory into a corporate wiki—lightweight structure and export when needed.'
+    link: 'use-cases/small-teams/'

@@ -1,44 +1,32 @@
 ---
 title: "Chi siamo"
-description: "Una società di senior engineering focalizzata sulla costruzione e l'evoluzione di sistemi complessi con chiarezza, precisione e ownership di lungo periodo."
+description: "HelloMnemo realizza Mnemo—un Memory OS personale per catturare, contestualizzare e ritrovare—con rigore ingegneristico e responsabilità nel tempo."
 translationKey: about
 menu:
   main:
     identifier: about
-    weight: 20
+    weight: 55
   footer:
     identifier: about
-    weight: 20
+    weight: 55
 ---
 
-Greenmice Technologies è una società di ingegneria, non un'agenzia di marketing. Da circa dieci anni aiutiamo imprese e organizzazioni di prodotto a rilasciare sistemi in cui architettura, affidabilità e disciplina di delivery contano davvero.
+HelloMnemo è l’azienda dietro **Mnemo**.
 
-Abbiamo sede in Italia e lavoriamo con clienti attivi in settori regolamentati e con operatori su larga scala. Il nostro orientamento è verso il **pensiero sistemico**: confini espliciti, standard qualitativi misurabili e software che possa evolvere senza trasformarsi in un progetto di riscrittura.
+Siamo un team con forte impronta ingegneristica, con sede in Italia. Costruiamo prodotti in cui contano **architettura, impostazioni privacy di default e affidabilità**—non le presentazioni.
 
-### Cosa ottimizziamo
+### Perché esiste Mnemo
 
-- **Gestione della complessità**: trasformare requisiti ambigui in design stabili.
-- **Affidabilità**: operabilità, osservabilità e manutenibilità come risultati di primo livello.
-- **Mestiere**: la cultura progettuale italiana si riflette in precisione nella comunicazione, nelle interfacce e nel dettaglio ingegneristico, non nella decorazione.
+Molti strumenti per le “note” ottimizzano la cattura rapida ma investono poco nel **richiamo a lungo termine**: ritrovare il frammento giusto mesi dopo, con il contesto intatto, tra tipi di media e ambiti della vita.
+
+Mnemo è la nostra risposta: un **Memory OS** offline-first, rispettoso della proprietà dei dati e pensato per crescere con te per anni.
 
 ### Come lavoriamo
 
-Piccoli team senior, accesso diretto agli ingegneri e avversione per i processi inutili. Ci integriamo con i tuoi stakeholder, allineiamo gli incentivi ai risultati e documentiamo le decisioni dove serve davvero.
+- **Pensiero sistemico**: confini chiari tra dati locali, sync cloud opzionale e superfici pubbliche.
+- **Mestiere**: precisione nel comportamento del prodotto, nelle prestazioni e nei dettagli che si sentono ogni giorno.
+- **Documentazione**: trattiamo le guide utente come parte del prodotto, non come ripiego.
 
-Il nostro approccio è pensato per contesti in cui “muoversi velocemente e rompere tutto” non è un'opzione. Combiniamo architettura solida e delivery incrementale, così i team vedono progressi senza mettere a rischio la stabilità della produzione.
+### Contatti
 
-### Discovery che rispetta la realtà
-
-Partiamo dai vincoli: regolazione, uptime, data residency, ecosistemi vendor e competenze del team. L'obiettivo è una mappa condivisa dei rischi, non una presentazione piena di promesse.
-
-### Architettura prima del churn
-
-Definiamo presto punti di integrazione, contratti e failure mode. Il risultato è un'architettura che può essere costruita per slice: strangler pattern, bounded context e interfacce esplicite.
-
-### Delivery per incrementi
-
-Rilasciamo incrementi verticali con valore misurabile: automazione che elimina lavoro ripetitivo, servizi che riducono l'accoppiamento e strumentazione che rende gli incidenti analizzabili.
-
-### Handover che dura
-
-Documentazione, runbook e formazione fanno parte della delivery, non sono un'attività lasciata a dopo il go-live.
+Per domande sul prodotto, partnership e supporto, usa i recapiti nella pagina [Contatti](contact/).

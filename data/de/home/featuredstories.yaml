@@ -1,0 +1,25 @@
+enable: true
+
+title: 'Anwendungsfälle'
+
+subtitle: 'Mnemo passt zu vielen Rhythmen. Drei typische Nutzungen.'
+
+cta:
+  label: 'Alle Anwendungsfälle'
+  link: 'use-cases/'
+
+items:
+  - tag: 'Persönlich'
+    title: 'Persönliche Erinnerung'
+    summary: 'Privater Ort für Lebensfragmente: Reisen, Familie, Gesundheit, Langzeitreflexion.'
+    link: 'use-cases/personal-memory/'
+
+  - tag: 'Arbeit'
+    title: 'Wissensarbeit'
+    summary: 'Entscheidungen, Notizen und Referenzen mit Kontext für später.'
+    link: 'use-cases/knowledge-workers/'
+
+  - tag: 'Teams'
+    title: 'Kleine Teams'
+    summary: 'Geteilte Klarheit ohne Firmen-Wiki — leichte Struktur und Export.'
+    link: 'use-cases/small-teams/'

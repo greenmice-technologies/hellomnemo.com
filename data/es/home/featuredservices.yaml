@@ -1,0 +1,28 @@
+enable: true
+
+title: "Qué puedes hacer"
+
+subtitle: "Empieza con notas diarias, crece hacia un archivo personal y añade sincronización cifrada cuando estés listo."
+
+cta:
+  label: "Panorama del producto"
+  link: "product/"
+
+items:
+  - title: "Captura diaria"
+    text: "Del pensamiento a la entrada guardada con rapidez—para que registrar un momento nunca sea un proyecto."
+    button:
+      label: "Flujos principales"
+      link: "docs/core-workflows/capture/"
+
+  - title: "Archivo offline-first"
+    text: "Tu conjunto de datos permanece local en el dispositivo. Viajes, redes irregulares y tiempo de foco no son obstáculos."
+    button:
+      label: "Primeros pasos"
+      link: "docs/getting-started/"
+
+  - title: "Sincronización privada en la nube"
+    text: "Sincronización opcional con cuenta para continuidad cifrada de datos y medios entre dispositivos."
+    button:
+      label: "Sincronización y nube"
+      link: "docs/sync-and-cloud/"

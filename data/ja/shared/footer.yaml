@@ -1,0 +1,22 @@
+enable: true
+
+contact:
+  title: "お問い合わせ"
+  items:
+    - label: "info@hellomnemo.com"
+      link: "mailto:info@hellomnemo.com"
+
+address_lines:
+  - "HelloMnemo S.r.l."
+  - "Piazzale delle Provincie 8, 00162 Roma, Italia"
+  - "携帯: +39 328 3615959"
+  - "VAT: 14580451004"
+  - "資本金: EUR 50,000.00（全額払込済）"
+
+social:
+  - title: "LinkedIn"
+    icon: "linkedin"
+    link: "https://www.linkedin.com/company/hellomnemo"
+    label: ""
+
+copyright: "© HelloMnemo S.r.l. All rights reserved."

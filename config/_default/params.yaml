@@ -1,34 +1,34 @@
-title: "Greenmice Technologies"
+title: "HelloMnemo"
 description: "AI, systems engineering, and software delivery for companies working in complex environments."
 
-logo: "images/brands/svg/logo-brand.svg"
-logo_dark: "images/brands/svg/logo-white.svg"
+logo: "images/brands/hellomnemo-brand.png"
+logo_dark: "images/brands/hellomnemo-brand.png"
 
 colors:
-  primary: "#1FA463"
-  secondary: "#263238"
-  background: "#F5F7F6"
+  primary: "#2BA7A1"
+  secondary: "#6E52B5"
+  background: "#F3EFFC"
 
 favicons:
-  themeColor: "#F5F7F6"
-  backgroundColor: "#F5F7F6"
-  faviconColor: "#1FA463"
+  themeColor: "#F3EFFC"
+  backgroundColor: "#F3EFFC"
+  faviconColor: "#2BA7A1"
 
 images:
-  - "greenmice-technologies-og.png"
+  - "hellomnemo-og.png"
 
 contact:
   - "info@hellomnemo.com"
 
 social:
-  linkedin: "https://www.linkedin.com/company/greenmice"
-  github: "https://github.com/greenmice"
+  linkedin: "https://www.linkedin.com/company/hellomnemo"
+  github: "https://github.com/hellomnemo"
 
 address_lines:
-  - "Greenmice Technologies S.r.l."
+  - "HelloMnemo S.r.l."
   - "Piazzale delle Provincie 8, 00162 Rome, Italy"
   - "Mobile: +39 328 3615959"
   - "VAT ID: 14580451004"
   - "Share capital: EUR 50,000.00 fully paid"
 
-copyright: "© Greenmice Technologies S.r.l."
+copyright: "© HelloMnemo S.r.l."

@@ -1,0 +1,30 @@
+enable: true
+
+title: "Pensado para la memoria, no para el ruido"
+
+text: "Mnemo gira en torno a un ciclo simple: captura rápida, estructura que perdura, recuperación con intención. La app móvil es offline-first; la nube es opcional y consciente de la privacidad."
+
+items:
+  - pretitle: "Captura"
+    pretext: "Momentos y medios"
+    color: "#2BA7A1"
+    icon: "pen-line"
+    image: "images/blowfish/heroes/fireflies.svg"
+    title: "Entradas ricas que siguen siendo legibles"
+    text: "Escribe en un editor calmado, adjunta fotos, vídeo, audio y documentos, y mantén todo ligado a fechas y contexto."
+
+  - pretitle: "Estructura"
+    pretext: "Carpetas y plantillas"
+    color: "#6E52B5"
+    icon: "layers-3"
+    image: "images/blowfish/heroes/ripples.svg"
+    title: "Un lugar para todo lo que te importa"
+    text: "Organiza con carpetas, plantillas y hábitos alineados con cómo piensas de verdad—no con una base de datos rígida."
+
+  - pretitle: "Recuperación"
+    pretext: "Búsqueda y tiempo"
+    color: "#2BA7A1"
+    icon: "calendar"
+    image: "images/blowfish/heroes/waves.svg"
+    title: "El fragmento adecuado en el momento adecuado"
+    text: "Busca en tu archivo, navega por calendario y mapa, y usa recordatorios para volver a lo que importa."

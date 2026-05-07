@@ -1,0 +1,28 @@
+enable: true
+
+title: "O que você pode fazer"
+
+subtitle: "Comece com notas diárias, cresça para um arquivo pessoal e adicione sync criptografada quando quiser."
+
+cta:
+  label: "Visão do produto"
+  link: "product/"
+
+items:
+  - title: "Captura diária"
+    text: "Do pensamento à entrada salva — sem tornar o momento um projeto."
+    button:
+      label: "Fluxos principais"
+      link: "docs/core-workflows/capture/"
+
+  - title: "Arquivo offline-first"
+    text: "Seus dados ficam no dispositivo. Viagens e rede ruim não atrapalham."
+    button:
+      label: "Primeiros passos"
+      link: "docs/getting-started/"
+
+  - title: "Sync privada na nuvem"
+    text: "Sync opcional com conta para continuidade criptografada."
+    button:
+      label: "Sincronização e nuvem"
+      link: "docs/sync-and-cloud/"

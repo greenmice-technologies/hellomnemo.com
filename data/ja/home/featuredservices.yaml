@@ -1,0 +1,28 @@
+enable: true
+
+title: "できること"
+
+subtitle: "毎日のメモから個人アーカイブへ。準備ができたら暗号化同期を。"
+
+cta:
+  label: "プロダクト概要"
+  link: "product/"
+
+items:
+  - title: "毎日の記録"
+    text: "思いつきから保存までを速く。記録がプロジェクトにならないように。"
+    button:
+      label: "主要ワークフロー"
+      link: "docs/core-workflows/capture/"
+
+  - title: "オフライン優先アーカイブ"
+    text: "データセットは端末ローカル。移動中や不安定な回線でも妨げになりにくい。"
+    button:
+      label: "はじめに"
+      link: "docs/getting-started/"
+
+  - title: "プライベートなクラウド同期"
+    text: "任意のアカウント同期で、データとメディアを暗号化した継続性。"
+    button:
+      label: "同期とクラウド"
+      link: "docs/sync-and-cloud/"

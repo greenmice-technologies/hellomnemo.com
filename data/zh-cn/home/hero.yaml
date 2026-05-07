@@ -1,0 +1,30 @@
+enable: true
+
+title: '你的人生，<br/>被好好记住。'
+
+text: 'Mnemo 是个人记忆操作系统：带着情境捕获片段，离线优先保持井然有序，并在时间、地点与媒介中找回重要内容。'
+
+buttons:
+  - label: '了解工作方式'
+    link: '#features'
+  - label: '文档'
+    link: 'docs/'
+
+image: 'images/home/hero/hero.svg'
+
+items:
+  - icon: 'sparkles'
+    title: '有情境的记录'
+    text: '笔记、媒体与提醒与所属时刻绑定。'
+
+  - icon: 'folder'
+    title: '轻松整理'
+    text: '从单本日记到丰富档案都能自然扩展的结构。'
+
+  - icon: 'search'
+    title: '在需要时找回'
+    text: '为重新发现而设计，而不是无尽下滑。'
+
+  - icon: 'cloud'
+    title: '可选加密同步'
+    text: '需要备份与跨设备连续性时的私密云副本。'

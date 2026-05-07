@@ -1,0 +1,30 @@
+enable: true
+
+title: 'Ihr Leben,<br/>erinnert.'
+
+text: 'Mnemo ist ein persönliches Memory-OS: Erfassen Sie Fragmente mit Kontext, bleiben Sie offline-first organisiert und holen Sie zurück, was über Zeit, Ort und Medien zählt.'
+
+buttons:
+  - label: 'So funktioniert es'
+    link: '#features'
+  - label: 'Dokumentation'
+    link: 'docs/'
+
+image: 'images/home/hero/hero.svg'
+
+items:
+  - icon: 'sparkles'
+    title: 'Mit Kontext erfassen'
+    text: 'Notizen, Medien und Erinnerungen bleiben mit dem Moment verbunden.'
+
+  - icon: 'folder'
+    title: 'Ohne Reibung ordnen'
+    text: 'Ordner und Struktur — vom einen Tagebuch bis zum großen Archiv.'
+
+  - icon: 'search'
+    title: 'Wiederfinden, wenn es hilft'
+    text: 'Suche und Oberflächen für Entdeckung — nicht endloses Scrollen.'
+
+  - icon: 'cloud'
+    title: 'Optionale verschlüsselte Sync'
+    text: 'Private Cloud-Kopie für Backup und Gerätekontinuität.'
